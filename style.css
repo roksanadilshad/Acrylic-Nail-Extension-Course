@@ -1,0 +1,298 @@
+body{
+    font-family: "Sen", sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+:root {
+  /* Brand Colors */
+  --primary-color: #F64E85;    
+  --secondary-color: #282828;   
+  --success-color: #168442;   
+  --priomary-light-bg: #F64E850F;
+  --secondary-light-bg: #F7F8FA;
+  
+  /* Neutral Tones */
+  --light-green: rgba(45, 150, 87, 0.1);
+  --text-main: #333333;
+  
+  /* Spacing & Borders */
+  --main-padding: 2rem;
+  --border-radius: 8px;
+
+  /* Typography */
+  --body-font: 'Inter', sans-serif;
+}
+.highlight-container{
+    margin-top: 36px ;
+    margin-bottom: 24px ;
+}
+.hl-card{
+    padding: 10px 16px !important;
+    border: 1px solid #E2E2E3;
+    border-radius: 30px;
+    gap: 12px;
+    flex: 1 1 auto; 
+    display: flex;
+    align-items: center;
+}
+.hl-card span{
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px !important;
+}
+.hl-card img{
+width: 20px !important;
+height: 20px !important;
+}
+/* hero */
+.hero-container{
+padding-top: 20px;
+margin: 20px 40px;
+}
+h1{
+font-weight: 700 !important;
+font-style: Bold !important;
+font-size: 40px !important;
+line-height: 54px !important;
+letter-spacing: 1%;
+vertical-align: middle;
+padding-bottom: 18px;
+
+}
+h1 .primary-color{
+    color: var(--primary-color);
+}
+.rating-card span{
+    font-size: 12px;
+    color: #000000;
+}
+.rating-badge {
+  padding: 5px 16px;
+  border-radius: 30px;
+  gap: 10px;
+  background: var(--light-green);
+  margin-bottom: 24px;
+}
+
+
+.rating-star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  padding: 4px 3px;
+  font-size: 14px;
+  color: white;
+  background-color: #168442;
+  border-radius: 1px;
+}
+.customer-reviews-link {
+  text-decoration: none;
+  color: #000000 !important;
+  font-size: 12px;
+
+}
+.title-description{
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+line-height: 146%;
+letter-spacing: 1%;
+vertical-align: middle;
+margin-bottom: 24px;
+}
+.course-fee-card{
+gap: 6px;
+opacity: 1;
+border-radius: 12px;
+border-width: 1px;
+padding: 18px 20px;
+background: var(--priomary-light-bg);
+border: 1px solid #F64E8599;
+}
+.course-fee-card h6{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.price{
+    gap: 20px;
+    margin-bottom: 6px;
+}
+.current-price{
+font-weight: 700;
+font-style: Bold;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+color: var(--primary-color);
+}
+.original-price{
+font-weight: 500;
+text-decoration:line-through;
+font-size: 18px;
+line-height: 146%;
+letter-spacing: 1%;
+vertical-align: middle;
+color: var(--secondary-color);
+
+}
+
+.discount-badge{
+    width: 87px;
+height: 29px;
+gap: 10px;
+opacity: 1;
+border-radius: 16px;
+border-width: 1px;
+padding: 6px 12px;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+background: var(--success-color);
+color: #ffffff;
+}
+.description{
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+line-height: 146%;
+letter-spacing: 1%;
+vertical-align: middle;
+
+}
+.course-btn{
+  padding-top: 20px;
+margin: 20px 40px;
+}
+.enroll-active-btn{
+gap: 12px;
+opacity: 1;
+border-radius: 12px;
+padding: 16px 24px;
+background: var(--primary-color);
+color: white;
+box-shadow: 0px 8px 16px 0px #0000000D;
+margin-right: 18px;
+}
+.available-dates-btn{
+border-radius: 12px;
+border-width: 1px;
+padding: 16px 24px;
+border: 1px solid var(--primary-color) !important;
+background: white;
+color: var(--primary-color);
+box-shadow: 0px 8px 16px 0px #0000000D;
+}
+/* main-image */
+.image-section {
+  width: 57%;
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.course-image{
+height: 412px;
+opacity: 1;
+border-radius: 12px;
+top: 29px;
+left: 678px;
+width:100%;
+border-radius: 12px;
+object-fit: cover;
+
+}
+.rating-overlay-container {
+  position: absolute;
+  background-color: white;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.ofqual {
+  top: -18.5px;
+  right: 122px;
+  padding: 11px 18px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+.success-rate {
+  left: 78.5px;
+  bottom: -28px;
+  padding: 12px 16px;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
+.rating-flot {
+  bottom: 88px;
+  right: 12px;
+  padding: 11px 14px;
+  font-size: 16px;
+  gap: 14px;
+}
+
+
+/* accredited by */
+.accredited-container{
+padding: 28px 36px;
+gap: 36px;
+opacity: 1;
+border: 1px solid #E2E2E3;
+border-radius: 12px;
+background: var(--secondary-light-bg);
+margin: 70px 40px 40px 40px;
+}
+h2{
+font-weight: 700;
+font-style: Bold;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+margin-bottom: 36px;
+}
+.arccedited-card{
+padding: 24px 150px;
+gap: 100px;
+opacity: 1;
+border-width: 1px;
+border-radius: 12px;
+background: #FFFFFF;
+border: 1px solid #E2E2E3;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 90%;
+margin: 0 auto;
+}
+.accredited-logo{
+width: 100px;
+height: 100px;
+opacity: 1;
+border-radius: 8px;
+border-width: 1px;
+
+}
+
+/* .card {
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  padding: 30px 20px;
+  border-radius: 12px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 6px -4px #0000001F;
+  margin-bottom: 24px;
+
+} */
+/* Floating Overlays */
+
+
