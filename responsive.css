@@ -164,6 +164,88 @@ border-width: 1px;
 
 }
 
+.experience-gellary-container{
+padding: 0;
+gap: 36px;
+margin: 36px 20px 24px 20px;
+}
+.top-title{
+font-size: 14px;
+margin-bottom: 10px;
+}
+.sub-heading h2{
+  margin-bottom: 10px;
+}
+ .subtitle{
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.sub-heading{
+  margin-bottom: 36px;
+}
+/* course for */
+.course-for-container{
+  padding: 24px 50px;
+}
+.course-for-container h2{
+  margin-bottom: 24px !important;
+  font-size: 24px;
+}
+.course-for-card{
+padding: 18px 14px;
+gap: 12px;
+border-radius: 8px;
+}
+.course-for-card h5{
+font-size: 16px;
+}
+.course-for-card p{
+font-size: 14px;
+}
+.course-for-card img{
+width: 46px;
+height: 46px;
+}
+
+
+/* about the coure */
+.about-the-course-container{
+padding: 24px 20px;
+gap: 36px;
+opacity: 1;
+background: white;
+}
+.about-the-course-container h2{
+  margin-bottom: 0 !important;
+  font-size: 20px;
+  font-weight: 600px;
+}
+.about-description{
+  margin-bottom: 14px !important;
+}
+.about-description p{
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.about-description img{
+width: 14px;
+height: 15px;
+
+}
+.about-the-course-container-img img{
+  width: 100%;
+margin: 0 auto;
+opacity: 1;
+border-radius: 12px;
+border-width: 1px;
+
+}
+
   
   
   
@@ -685,4 +767,21 @@ border-width: 1px;
         width: 20px !important;
         height: 20px !important;
     }
+}
+@media (min-width: 768px) {
+  .image-gallery {
+    grid-template-columns: 1fr 1fr 1fr; /* 3 equal columns */
+    align-items: stretch;
+  }
+
+  /* Force the side images to take up the full height of the center's two images */
+  .leftside-img img, 
+  .rightside-img img {
+    height: 100%;
+  }
+
+  /* Split the middle column into two equal halves */
+  .middle-img img {
+    height: calc(50% - 7.5px); /* Subtracting half of the gap */
+  }
 }
