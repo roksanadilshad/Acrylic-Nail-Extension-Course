@@ -6,7 +6,7 @@
   .container{
         --bs-gutter-x: 0rem !important;
   }
-  .hero-container, .course-btn {
+  .hero-container, .course-btn-for-enroll{
     padding: 0px;
     margin: 0px;
   }
@@ -245,464 +245,55 @@ border-radius: 12px;
 border-width: 1px;
 
 }
+/* curriculum */
+.currigulum-container{
+padding: 24px 20px;
+gap: 36px;
+width: 100%;
+background: rgba(247, 248, 250, 1);
+;
+}
+.top-badge {
+  font-size: 14px;
+  font-weight: 600;
+}
+.style-icon-container{
+padding: 28px 0 21px 24px;
+}
+.style-icon-container h3{
+font-size: 18px;
+}
+.suggetions-card{
+padding: 24px;
 
-  
-  
-  
-  .action-container {
-    margin-top: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-
-    gap: 14px;
-  }
-  .action-container-btn {
-    width: 100%;
-    margin: 0 auto;
-    
-  }
-  .btn-book{
-    padding: 12px 10px !important;
-    border-radius: 8px;
-
-  }
-  .booking-info-block-sm {
-    border: 1px solid #168442;
-    color: #168442;
-    padding: 10px 14px;
-    margin-top: 14px;
-    border-radius: 8px;
-    font-size: 9px;
-  }
-  .primium-bundle {
-    background-color: #082057;
-    color: #ffffff;
-    padding: 14px;
-    margin-top: 14px;
-    border-radius: 8px;
-    gap: 8;
-    font-size: 12px;
-    line-height: 20px;
-  }
-  .original-price-black {
-    color: #f0f2f580;
-    text-decoration: line-through;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 18px 0 0;
-  }
- 
-
-  .ticker-overflow-hidden {
-    overflow: hidden;
-    width: 100%;
-    background: #fff;
-    margin-top: 36px;
-  }
-
-  /* exam-book */
-  .secoend-heading {
-    font-size: 20px;
-    margin: 0px;
-  }
-  .second-subtitle {
-    font-size: 14px !important;
-    margin-top: 10px;
-    margin-bottom: 36px;
-  }
-  .book-container {
-    width: 100%;
-  }
-  #exam-board-options button {
+}
+.session-type{
+  margin-bottom: 24px;
+}
+.session-type h4{
+font-size: 16px;
+font-weight: 600;
+margin-bottom: 14px;
+}
+.session-type .session-des{
+font-size: 14px !important;
+}
+.session-type img{
+width: 12px;
+}
+.book-btn {
+    width: 80% !important;
+    border-radius: 10px !important;
     padding: 10px;
-    border-radius: 8px !important;
-    font-size: 12px;
-  }
-  #exam-board-options button img {
-    width: 16px;
-    height: 16px;
-  }
-  .book-container {
-    width: 100% !important;
-    padding: 10px !important;
-    font-size: 12px !important;
-    margin-top: 36px;
-  }
-  .original-price-2 {
-    color: #cecece;
-    font-size: 12px;
-    font-weight: 400;
-    text-decoration: line-through;
-    padding: 4px 16px 0 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
   }
 
-  /* featurs */
-  .featurs-container {
-    padding: 10px 0;
-  }
-  .feature {
-    padding: 6px 8px;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    font-size: 12px;
-    line-height: 16px;
-    font-weight: 500 !important;
-    letter-spacing: 0%;
-  }
-  .feature img {
-    height: 20px; /* Ensure consistent icon sizing */
-    width: auto;
-  }
-  /* Step Badges */
-  .badge {
-    font-size: 16px !important;
-    padding: 6px 10px !important;
-    margin-right: 5px !important;
-  }
 
-  h5.fs-5 {
-    font-size: 1.1rem !important;
-  }
 
-  /* Step 3: Calendar Header & Grid */
-  .calendar-header {
-    flex-wrap: nowrap;
-    justify-content: center !important;
-    gap: 10px;
-    position: relative;
-  }
-  .feburary,
-  .year {
-    font-size: 12px !important;
-  }
-  .month-change-left {
-    position: absolute;
-    left: 1px;
-    width: 10px;
-  }
-  .month-change-right {
-    position: absolute;
-    right: 1px;
-    width: 10px;
-  }
-  #calendar-grid {
-    gap: 6px;
-  }
-
-  .date-box {
-    font-size: 11px !important;
-    border-radius: 6px !important;
-  }
-
-  .available-date {
-    font-size: 13px !important;
-  }
-
-  /* Step 4: Exam Options Stacking */
-  #exam-type {
-    flex-direction: column !important;
-    gap: 15px !important;
-  }
-
-  #exam-type button h3 {
-    font-size: 18px !important;
-    margin-bottom: 0;
-  }
-
-  /* Force the Add to Cart button to be wider on mobile */
-  #book-exam .btn-primary.col-6 {
-    width: 100% !important;
-    /* padding: 12px !important; */
-    font-size: 1.1rem !important;
-    box-shadow: 0px 4px 4px 0px #00000026;
-  }
-
-  /* Footer Trust Icons (Klarna/Clearpay) */
-  #book-exam .mt-4.gap-5 {
-    gap: 1.5rem !important;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  #book-exam .mt-4 p {
-    font-size: 0.8rem !important;
-  }
-
-  #book-exam .mt-4 img {
-    height: 20px;
-    width: auto;
-    margin-bottom: 5px !important;
-  }
-  #board-alert {
-    font-size: 10px;
-    padding: 12px;
-    line-height: 146%;
-    gap: 8px;
-  }
-  #board-alert img {
-    width: 12px;
-    height: 15px;
-  }
-  #invigilation-options h6 {
-    font-size: 14px !important;
-  }
-  .status-box img {
-    width: 10px;
-    height: 10px;
-  }
-
-  .date-box {
-    font-size: 10px !important;
-  }
-
-  .available-date {
-    font-size: 12px !important;
-  }
-
-  .calendar-header h4 {
-    font-size: 1rem;
-  }
-
-  h5.fs-5 {
-    font-size: 1rem !important;
-  }
-
-  #exam-process {
-    padding: 38px 2px 48px 2px;
-    background: #f9fafb;
-  }
-  #exam-process .row,
-  #choose-style .row,
-  #exam-breakdown .row,
-  #tecnical-requirments .row,
-  #faqs .row {
-    --bs-gutter-x: 0;
-  }
-  .la-card {
-    padding: 16px 12px;
-    box-shadow: 0px 4px 4px 0px #0000000d;
-    margin-bottom: 16px;
-    text-align: center;
-    background: #ffffff;
-  }
-  .la-card h3 {
-    font-size: 16px;
-  }
-  .la-card .la-description {
-    font-size: 14px !important;
-  }
-  #choose-style {
-    padding: 0 2px;
-  }
-
-  .choose-style-header {
-    margin-bottom: 36px !important;
-  }
-
-  .choose-style-header p,
-  .exam-process-header p,
-  .exam-breakdown-header p {
-    font-size: 14px !important;
-  }
-  .row {
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  /* Card Container Tweaks */
-  .style-card,
-  .style-card-popular,
-  .style-card-boards {
-    border: 1px solid #eee;
-    background: #fff;
-    height: auto !important;
-  }
-  .style-icon-container .d-flex {
-    flex-wrap: nowrap;
-  }
-  #booking-summary {
-    border: 1px solid #f64e85; 
-    width: 100%;
-    margin: 16px auto 4px auto;
-   
-}
-#booking-summary p {
-    font-size: 10px !important;
-}
-#booking-summary h3 {
-    font-size: 12px !important;
-    letter-spacing: 0;
-}
-  /* Mobile Specific Adjustments */
-  #choose-style h3 {
-    font-size: 14px !important;
-    font-weight: 900;
-  }
-  .style-icon-container img {
-    max-width: 50px;
-    height: auto;
-  }
-
- .style-details{
-  background: rgba(249, 250, 251, 1);
- }
-
-.style-card {
-  border-top-width: 10px;
-  border-top-color: #f64e85;
-  border-right-color: rgba(218, 51, 105, 0.3);
-  border-left-color: rgba(218, 51, 105, 0.3);
-  border-bottom-color: rgba(218, 51, 105, 0.3);
- 
-}
-
-.style-card-popular {
-  border-top-width: 10px;
-  border-top-color: #4d5df5;
-  border-right-color: rgba(77, 93, 245, 0.3);
-  border-left-color: rgba(77, 93, 245, 0.3);
-  border-bottom-color: rgba(77, 93, 245, 0.3);
-}
-
-  .text-purple {
-    color: #4d5df5;
-  }
-  .bg-light-purple {
-    background: rgba(241, 242, 254, 1);
-  }
-
-  .style-card-boards {
-  border-top-width: 10px;
-  border-top-color: #168442;
-  border-right-color: rgba(22, 132, 66, 0.3);
-  border-left-color: rgba(22, 132, 66, 0.3);
-  border-bottom-color: rgba(22, 132, 66, 0.3);
-}
-
-  .bg-success-light {
-    background: rgba(16, 183, 127, 0.2);
-  }
-  /* Exam Breakdown */
-  #exam-breakdown {
-    padding: 0px 2px;
-    background: #f9fafb;
-    margin-top: 0;
-  }
-  #exam-breakdown h3 {
-    font-size: 16px !important;
-    line-height: 146%;
-    letter-spacing: 0.5%;
-    margin-bottom: 12px !important;
-  }
-  .non-calculator,
-  .calculator {
-    padding: 12px 0 !important;
-    border-radius: 8px !important;
-  }
-  .non-calculator p,
-  .calculator p {
-    font-size: 12px !important;
-    margin-bottom: 0 !important;
-  }
-  .non-calculator h4,
-  .calculator h4 {
-    font-size: 14px !important;
-    margin-bottom: 8px !important;
-  }
-  .non-calculator img,
-  .calculator img {
-    width: 43px !important;
-    margin: 0 4px;
-  }
-  .area-box {
-    border-radius: 8px !important;
-    padding: 14px !important;
-  }
-  .area-box img {
-    width: 46px !important;
-  }
-  .area-box p {
-    font-size: 16px !important;
-    line-height: 100%;
-    letter-spacing: 0%;
-    margin-bottom: 20px !important;
-  }
-  .area-of-study p {
-    font-size: 14px !important;
-    letter-spacing: 0.5%;
-    margin-bottom: 10px !important;
-    padding: 10px !important;
-  }
-  /* Tecnical Requirements */
-
-  #tecnical-requirments {
-    padding: 48px 2px;
-  }
-
-  #tecnical-requirments img {
-    width: 40px !important;
-  }
-  #tecnical-requirments h5 {
-    font-size: 14px !important;
-    margin-bottom: 6px !important;
-  }
-  #tecnical-requirments span {
-    font-size: 12px;
-    /* line-height: 140%; */
-  }
-  #tecnical-requirments .border-bottom {
-    border-bottom: none !important;
-  }
-  .vertical-line,
-  .vertical-line-wifi {
-    background-color: rgba(218, 51, 105, 0.2);
-    /* height: 30px; */
-  }
   
-
-  /* Testimonials */
-  #testimonials {
-    padding: 0px 20px;
-  }
-  .testimonial-card {
-    border-radius: 8px !important;
-    padding: 16px 10px !important;
-  }
-
-  #user-icon {
-    width: 36px !important;
-    height: 36px !important;
-    margin-right: 1.5px !important;
-  }
-
-  #user-name {
-    font-size: 14px !important;
-    margin-bottom: 6px !important;
-  }
-  #user-role {
-    font-size: 10px !important;
-    line-height: 142%;
-  }
-  .mobile-nav-btn {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    background: #198754;
-    color: white;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    backdrop-filter: blur(10px);
-    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.25);
-  }
+  
+  
+ 
   /* FAQ */
   #faqs {
     padding: 48px 2px;
