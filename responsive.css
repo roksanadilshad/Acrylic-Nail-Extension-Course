@@ -25,21 +25,39 @@
 .highlight-container {
     margin-top: 0px;
     margin-bottom: 0px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .highlight-container .d-flex {
-    flex-wrap: nowrap !important; 
+    display: flex;
+    flex-wrap: nowrap;
+    width: max-content;
+    animation: scroll-infinite 10s linear infinite;
+}
+.highlight-container:hover .d-flex {
+    animation-play-state: paused;
+}
+
+.highlight-container .d-flex::-webkit-scrollbar {
+   flex-wrap: nowrap !important; 
     overflow-x: auto;        
     -webkit-overflow-scrolling: touch; 
     padding-bottom: 10px;    
     -ms-overflow-style: none; 
     scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    gap: 10px;
 }
-
-.highlight-container .d-flex::-webkit-scrollbar {
-    display: none;
+@keyframes scroll-infinite {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
-
 .hl-card {
     flex: 0 0 auto; 
     display: flex;
@@ -48,6 +66,7 @@
     border: 1px solid #E2E2E3;
     gap: 6px;
     background: #FFFFFF;
+    scroll-snap-align: start
 }
 
 .hl-card span {
