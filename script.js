@@ -136,7 +136,6 @@ if(playBtn) {
 // booking logic
 document.addEventListener('DOMContentLoaded', async () => {
     const trainingContainer = document.querySelector('.book-traning-cards');
-
     const seeMoreBtn = document.querySelector('.see-more-btn');
     let displayedCount = 3;
     let trainingData = [];
@@ -144,25 +143,29 @@ document.addEventListener('DOMContentLoaded', async () => {
     try {
         const response = await fetch('data.json');
         const rawData = await response.json();
-        
-        // --- NEW: Filter logic for 'hide' property ---
-        // Only keep items where hide is 0
         trainingData = rawData.filter(item => item.hide === 0);
-        
         renderCards(); 
     } catch (error) {
         console.error("Could not load training data:", error);
     }
 
-    // Helper function to create HTML for a card
     function createCardHTML(item) {
         const isSoldOut = item.seats === 0;
+        const dropdownOptions = trainingData.map(opt => `
+            <div class="dropdown-item" data-target-id="${opt.id}">
+                <div class="d-flex justify-content-between">
+                    <span><strong>${opt.city}</strong>: ${opt.date} ${opt.month}</span>
+                    <span class="text-pink">£${opt.price}</span>
+                </div>
+            </div>
+        `).join('');
+
         return `
-        <div class="book-traning-card position-relative">
+        <div class="book-traning-card position-relative" data-card-id="${item.id}">
             <span class="discount-top d-none d-md-block">59% OFF</span>
             <div class="booking-info">
             <div>
-            <div class="traning-address">
+                <div class="traning-address">
                     <div class="date-box d-none d-md-block">
                         <span class="date">${item.date}</span>
                         <span class="month">${item.month}</span>
@@ -186,10 +189,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <div class="${isSoldOut ? 'alert-for-no-seats' : 'alert-for-seats'}">
                     <span>${isSoldOut ? 'Sorry! No Seats Left' : `<span class="d-md-none d-inline-block">🔥</span>Hurry! Only ${item.seats} Seats Left`}</span>
                 </div>
-            </div>
-                
-                
-
+                </div>
                 <div class="book-price">
                     <div class="pricing-tag">
                         <span class="current-price" data-base="${item.price}">£${item.price}</span>
@@ -201,126 +201,179 @@ document.addEventListener('DOMContentLoaded', async () => {
                 </div>
             </div>
             ${item.hasOffer ? `
-<div class="special-offer position-relative">
-    <span class="discount-top">🔥 Special Offer</span>
-    <div class="d-flex justify-content-between flex-column flex-md-row align-items-md-end align-items-start gap-3">
-        <div class="special-offer-text d-flex align-items-start w-100">
-            <img src="https://i.ibb.co.com/Tx5H2cj9/Property-1-Off.png" alt="offer-add" class="offer-add mt-1">
-            <div class="flex-grow-1 position-relative">
-                <p class="p-text-black mb-1">Add Complete Nail Technical 3 Days Course</p>
-                
-                <div class="custom-select-wrapper">
-                    <div class="offer-date-input d-flex justify-content-between align-items-center">
-                        <span class="selected-val">Select available date...</span>
-                        <img src="https://cdn-icons-png.flaticon.com/512/2985/2985150.png" width="10" alt="arrow">
+            <div class="special-offer position-relative">
+                <span class="discount-top">🔥 Special Offer</span>
+                <div class="d-flex justify-content-between flex-column flex-md-row align-items-md-end align-items-start gap-1 gap-lg-3">
+                    <div class="special-offer-text d-flex align-items-start w-100">
+                        <img src="https://i.ibb.co.com/Tx5H2cj9/Property-1-Off.png" alt="offer-add" class="offer-add mt-1">
+                        <div class="flex-grow-1 position-relative">
+                            <p class="p-text-black mb-1">Add Complete Nail Technical 3 Days Course</p>
+
+                            <p class="text-morning mb-0 mt-1 d-inline">Offers are applicable only if you add now!</p>
+                        </div>
                     </div>
-                    
-                    <div class="offer-date-dropdown">
-                        <div class="dropdown-item" data-date="18th, 20th April">18th, 20th April</div>
-                        <div class="dropdown-item" data-date="3rd, 10th May">3rd, 10th May</div>
-                        <div class="dropdown-item" data-date="14th, 21st May">14th, 21st May</div>
+                    <div class="special-offer-course d-flex align-items-end justify-content-between gap-2 d-block">
+                        <span class="only-for d-inline-block">only for</span>
+                        <span class="current-price">£${item.offerPrice}</span>
+                        <span class="original-price">£350</span>
                     </div>
                 </div>
-                
-                <p class="text-morning mb-0 mt-1">Offers are applicable only if you add now!</p>
-            </div>
-        </div>
-        <div class="special-offer-course d-flex align-items-end justify-content-between gap-2">
-            <span class="only-for">only for</span>
-            <span class="current-price">£${item.offerPrice}</span>
-            <span class="original-price">£350</span>
-        </div>
-    </div>
-</div>` : ''}
+                <div class="custom-select-wrapper" style="display: none;">
+
+                                <div class="offer-date-input">
+                                    <span class="selected-val">${item.city} — ${item.date} ${item.month}</span>
+                                    <i class="arrow-down"></i>
+                                </div>
+                                <div class="offer-date-dropdown">
+                                    <div class="dropdown-search">
+                                        <input type="text" placeholder="Choose your preferred date" class="city-search">
+                                    </div>
+                                    <div class="options-container">
+                                        ${dropdownOptions}
+                                    </div>
+                                </div>
+                            </div>
+            </div>` : ''}
         </div>`;
     }
 
     function renderCards() {
         trainingContainer.innerHTML = trainingData.slice(0, displayedCount).map(item => createCardHTML(item)).join('');
-        
-        // Toggle See More button visibility if there are fewer than 3 cards
-        if(trainingData.length <= 3) {
-            seeMoreBtn.style.display = 'none';
-        } else {
-            seeMoreBtn.style.display = 'block';
-        }
+        seeMoreBtn.style.display = trainingData.length <= 3 ? 'none' : 'block';
     }
 
-    // Event Delegation for Clicks (Remains unchanged as requested)
     trainingContainer.addEventListener('click', (e) => {
         const card = e.target.closest('.book-traning-card');
         if (!card) return;
 
-        if (e.target.classList.contains('offer-add')) {
-            const offerImg = e.target;
-            const offerDiv = card.querySelector('.special-offer');
-            const mainPriceSpan = card.querySelector('.book-price .current-price');
-            const subText = offerDiv.querySelector('.text-morning');
-            const spCurrent = offerDiv.querySelector('.special-offer-course .current-price'); 
-            const offerPriceVal = parseInt(spCurrent.textContent.replace('£', ''));
-            const basePrice = parseInt(mainPriceSpan.dataset.base);
+        // 1. SEARCH LOGIC
+        if (e.target.classList.contains('city-search')) {
+            e.target.addEventListener('input', (event) => {
+                const val = event.target.value.toLowerCase();
+                const items = card.querySelectorAll('.dropdown-item');
+                items.forEach(item => {
+                    item.style.display = item.textContent.toLowerCase().includes(val) ? 'block' : 'none';
+                });
+            });
+            return; 
+        }
 
-            if (offerImg.src.includes('Property-1-Off.png')) {
-                offerImg.src = "https://i.ibb.co.com/b5pJYHzj/Property-1-On.png";
-                offerDiv.style.cssText = "border: 1px solid #F64E85; background: #F64E85; color: white !important;";
-                subText.textContent = "Added to your cart!";
-                subText.style.color = "black";
-                spCurrent.style.color = "#FFFFFF";
-                mainPriceSpan.textContent = `£${basePrice + offerPriceVal}`;
-            } else {
-                offerImg.src = "https://i.ibb.co.com/Tx5H2cj9/Property-1-Off.png";
-                offerDiv.style.cssText = ""; 
-                subText.textContent = "Offers are applicable only if you add now!";
-                subText.style.color = "";
-                spCurrent.style.color = "#000000";
-                mainPriceSpan.textContent = `£${basePrice}`;
+        // 2. OPEN/CLOSE DROPDOWN
+        const dateInput = e.target.closest('.offer-date-input');
+        if (dateInput) {
+            const currentDropdown = dateInput.nextElementSibling;
+            document.querySelectorAll('.offer-date-dropdown').forEach(d => {
+                if (d !== currentDropdown) d.classList.remove('show');
+            });
+            currentDropdown.classList.toggle('show');
+            return;
+        }
+
+        // 3. DYNAMIC DATA SWITCHER
+        const dropItem = e.target.closest('.dropdown-item');
+        if (dropItem) {
+            const targetId = parseInt(dropItem.dataset.targetId);
+            const newData = trainingData.find(d => d.id === targetId);
+            if (newData) {
+                const temp = document.createElement('div');
+                temp.innerHTML = createCardHTML(newData);
+                const newCard = temp.firstElementChild;
+                
+                // Keep the "Offer On" state if it was already selected
+                const wasOfferActive = card.querySelector('.offer-add').src.includes('Property-1-On.png');
+                if(wasOfferActive) {
+                    toggleOfferState(newCard, true);
+                }
+
+                card.replaceWith(newCard);
+                return; 
             }
         }
 
-        // --- 2. DROPDOWN TOGGLE LOGIC ---
-        const dateInput = e.target.closest('.offer-date-input');
-        if (dateInput) {
-            // Close other dropdowns
-            document.querySelectorAll('.offer-date-dropdown').forEach(d => {
-                if(d !== dateInput.nextElementSibling) d.classList.remove('show');
-            });
-            // Toggle current one
-            dateInput.nextElementSibling.classList.toggle('show');
+        // 4. PRICE / OFFER ADD LOGIC
+        if (e.target.classList.contains('offer-add')) {
+            const isActive = e.target.src.includes('Property-1-Off.png');
+            toggleOfferState(card, isActive);
         }
 
-        // --- 3. DROPDOWN ITEM SELECTION ---
-        const dropItem = e.target.closest('.dropdown-item');
-        if (dropItem) {
-            const dropdown = dropItem.parentElement;
-            const selectedSpan = dropdown.previousElementSibling.querySelector('.selected-val');
-            selectedSpan.textContent = dropItem.dataset.date;
-            selectedSpan.style.color = "#000";
-            selectedSpan.style.fontWeight = "600";
-            dropdown.classList.remove('show');
-        }
-
-        // --- 4. BOOKING LOGIC ---
+        // 5. BOOK NOW LOGIC
         if (e.target.classList.contains('book-now-btn')) {
-            // ... (Your existing booking seat decrement logic)
+            const btn = e.target;
+            const alertSpan = card.querySelector('.alert-for-seats span');
+            let seatMatch = alertSpan.textContent.match(/\d+/);
+            if (seatMatch) {
+                let count = parseInt(seatMatch[0]) - 1;
+                if (count <= 0) {
+                    alertSpan.innerHTML = "Sorry! No Seats Left";
+                    btn.textContent = "Fully Booked";
+                    btn.className = "already-booked-btn";
+                    btn.style.background = "black";
+                    btn.style.color = "white";
+                } else {
+                    alertSpan.innerHTML = `<span class="d-md-none d-inline-block">🔥</span>Hurry! Only ${count} Seats Left`;
+                    btn.textContent = "Booked";
+                }
+            }
         }
     });
 
-    // --- 5. GLOBAL CLICK (To close dropdown when clicking outside) ---
-    window.addEventListener('click', (event) => {
-        if (!event.target.closest('.custom-select-wrapper')) {
+    // Helper to handle the UI changes for Special Offer
+    function toggleOfferState(card, activate) {
+        const offerImg = card.querySelector('.offer-add');
+        const offerDiv = card.querySelector('.special-offer');
+        const selectWrapper = card.querySelector('.custom-select-wrapper');
+        const textMorning = card.querySelector('.text-morning');
+        const mainPriceSpan = card.querySelector('.book-price .current-price');
+        const spCurrent = offerDiv.querySelector('.special-offer-course .current-price'); 
+        const selectedVal = card.querySelector('.selected-val');
+        const selectedValSpan = card.querySelector('.selected-val-span');
+        
+        const offerPriceVal = parseInt(spCurrent.textContent.replace('£', ''));
+        const basePrice = parseInt(mainPriceSpan.dataset.base);
+
+        if (activate) {
+            offerImg.src = "https://i.ibb.co.com/b5pJYHzj/Property-1-On.png";
+            offerDiv.style.background = "#F64E85";
+            offerDiv.style.color = "white";
+            
+            // UI requirements
+            selectWrapper.style.display = "block";
+            textMorning.style.color = "black";
+            textMorning.textContent = "Added to your cart!";
+            spCurrent.style.color = "white";
+            
+            if(selectedVal) {
+                selectedVal.style.color = "black"; // Input text becomes black
+                selectedVal.parentElement.style.background = "white"; // Make input white for contrast
+            }
+            
+            mainPriceSpan.textContent = `£${basePrice + offerPriceVal}`;
+            mainPriceSpan.style.color = "#F64E85"; // Price becomes green
+        } else {
+            offerImg.src = "https://i.ibb.co.com/Tx5H2cj9/Property-1-Off.png";
+            offerDiv.style.background = "";
+            offerDiv.style.color = "";
+            
+            // Revert UI
+            selectWrapper.style.display = "none";
+            textMorning.style.color = "";
+            textMorning.textContent = "Offers are applicable only if you add now!";
+            spCurrent.style.color = "";
+            selectedValSpan.style.color = "#000000";
+            mainPriceSpan.textContent = `£${basePrice}`;
+            mainPriceSpan.style.color = ""; // Revert price color
+        }
+    }
+
+    window.addEventListener('click', (e) => {
+        if (!e.target.closest('.custom-select-wrapper')) {
             document.querySelectorAll('.offer-date-dropdown').forEach(d => d.classList.remove('show'));
         }
     });
-    
 
     seeMoreBtn.addEventListener('click', () => {
-        if (displayedCount < trainingData.length) {
-            displayedCount = trainingData.length;
-            seeMoreBtn.textContent = "See Less";
-        } else {
-            displayedCount = 3;
-            seeMoreBtn.textContent = "See More";
-        }
+        displayedCount = (displayedCount < trainingData.length) ? trainingData.length : 3;
+        seeMoreBtn.textContent = (displayedCount > 3) ? "See Less" : "See More";
         renderCards();
     });
 });

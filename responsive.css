@@ -230,6 +230,9 @@ font-size: 14px;
 width: 46px;
 height: 46px;
 }
+.special-offer-course{
+  width: 45%;
+}
 
 
 /* about the coure */
@@ -567,34 +570,7 @@ border: none
 }
 
 }
-@media (min-width: 576px) {
-    .highlight-container {
-        margin-top: 36px !important;
-        margin-bottom: 24px !important;
-    }
 
-    .highlight-container .d-flex {
-        overflow-x: visible; /* Disable scrolling on desktop if not needed */
-        justify-content: center; /* Center the items on large screens */
-    }
-
-    .hl-card {
-        padding: 10px 16px !important;
-        border-radius: 30px;
-        gap: 12px;
-        flex: 0 1 auto; /* Let them sit naturally side-by-side */
-    }
-
-    .hl-card span {
-        font-weight: 600;
-        font-size: 16px !important;
-    }
-
-    .hl-card img {
-        width: 20px !important;
-        height: 20px !important;
-    }
-}
 @media (min-width: 768px) and (max-width: 1024px)  {
   .image-gallery {
     grid-template-columns: 1fr 1fr 1fr;

@@ -883,6 +883,9 @@ letter-spacing: 1%;
 color: #B8BABD;
 
 }
+.special-offer-course{
+  width: 40%;
+}
 .book-price .book-now-btn, .already-booked-btn{
 padding: 12px 24px;
 border-radius: 12px;
@@ -1010,62 +1013,87 @@ padding: 20px;
   border-top: 0 !important;
   background-color: transparent !important;
 }
-@keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
-.date-option-btn { border: 1px solid #E2E2E3; background: white; padding: 10px; border-radius: 8px; text-align: left; }
-.date-option-btn:hover { background: #F64E85; color: white; }
-
-/* Custom Select Styling */
-.custom-select-wrapper {
-    position: relative;
-    width: 100%;
-    max-width: 250px;
-}
+/* 3. Custom Select */
+.custom-select-wrapper { 
+  width: 100%;
+  position: relative; 
+  padding: 10px;
+  }
 
 .offer-date-input {
-    background: #fff;
-    border: 1px solid #E2E2E3;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 11px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     cursor: pointer;
-    color: #666;
+    transition: all 0.2s;
 }
+.offer-date-input:hover { 
+  border-color: #F64E85; 
+  background: #fff; }
 
 .offer-date-dropdown {
-    display: none; /* Hidden until clicked */
+    display: none;
     position: absolute;
-    top: 105%;
+    top: 100%;
     left: 0;
-    width: 100%;
+    right: 0;
     background: white;
-    border: 1px solid #E2E2E3;
-    border-radius: 5px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    z-index: 99;
-    max-height: 150px;
-    overflow-y: auto;
+    z-index: 100;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    margin-top: 5px;
 }
+.offer-date-dropdown.show { display: block; }
 
-.offer-date-dropdown.show {
-    display: block;
+.dropdown-search { 
+  padding: 8px; 
+  border-bottom: 1px solid #eee; 
 }
+.city-search { 
+  width: 100%; 
+  border: 1px solid #eee; 
+  padding: 5px; 
+  font-size: 11px; 
+  border-radius: 4px;
+ }
 
-.dropdown-item {
-    padding: 8px 10px;
-    font-size: 11px;
-    color: #333;
-    cursor: pointer;
-    border-bottom: 1px solid #f0f0f0;
+.options-container { 
+  max-height: 200px; 
+  overflow-y: auto;
+ }
+.dropdown-item { 
+  padding: 10px 12px; 
+  font-size: 12px; cursor: 
+  pointer; 
+  border-bottom: 1px solid #f9f9f9; 
+  border: 1px solid #E2E2E3;
 }
-
+.dropdown-item span{ 
+  padding: 10px 12px; 
+  font-size: 12px; 
+  cursor: pointer;
+  color: #000000; 
+  border-bottom: 1px solid #f9f9f9;
+}
 .dropdown-item:hover {
-    background-color: #F64E85;
-    color: white;
+   background: #fff0f5;
+   }
+.text-pink { 
+  color: #F64E85 !important;
+   font-weight: bold; 
+  }
+
+.arrow-down {
+    width: 0; height: 0; 
+    border-left: 5px solid transparent; border-right: 5px solid transparent;
+    border-top: 5px solid #888;
 }
 
-/* Ensure the parent doesn't hide the popup */
-.special-offer {
-    overflow: visible !important;
-}
 
 
