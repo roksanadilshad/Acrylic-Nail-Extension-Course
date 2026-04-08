@@ -68,12 +68,14 @@
         <div class="hero-container container">
           <div class="d-flex align-items-lg-center flex-lg-row flex-column gap-4">
             <div class=" col-lg-6 col-12">
-                <div class="hero-text">
+              <div class="hero-banner-text">
+                 <div class="hero-text">
                     <h1>
                 Acrylic Nail Extension
                 <span class="primary-color"> Training London </span
                 ><span class="d-none d-md-inline"> | Face to Face Class </span>
               </h1>
+              </div>
               <div class="rating-badge d-inline-flex align-items-center">
                 <div
                   class="rating-card d-flex justify-content-start align-items-center gap-1"
@@ -161,7 +163,10 @@
                   </div>
                 </div>
               </section>
-                </div>
+              </div>
+                
+              
+                
               
               <p class="title-description d-none d-md-block">
                 This course is specially designed for beginners willing to gain
@@ -296,8 +301,9 @@
       <section id="accredited">
         <div class="container">
           <div class="accredited-container">
-               <div class="sub-heading">
+               <div class="accordited-title text-center">
                 <h2>Accredited By</h2>
+               </div>
                 <div class="">
   <div class="arccedited-card">
                   <img
@@ -399,7 +405,7 @@
       <section id="about-the-course">
         <div class="about-the-course-container  ">
         <div class="container">
-            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-lg-5">
+            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 gap-md-5">
 
               <div class="article-about-heading d-md-block d-lg-none">
                 <span class="top-title text-center d-block">About The Course</span>
@@ -696,7 +702,7 @@
           <div class="right-dot-fill position-absolute"></div>
         </div>
         <div class="w-100 h-100  p-2 overflow-hidden ">
-            <img id="main-img" src="https://i.ibb.co.com/TfRfn4m/Ellipse-78.png" 
+            <img id="main-img" src="https://i.ibb.co.com/6R1KZt9s/Overlay-Shadow.png" 
                                          class="  main-video-thumbnail " alt="User Video"
                                          >
                                          <button class="play-btn">
@@ -761,7 +767,7 @@
                                          <div class="location-icon d-flex justify-content-start align-items-center gap-2">
                                           <img src="https://i.ibb.co.com/kV9HgLYN/Group-47.png" alt="location icon" class="d-none d-md-block">
                                          <p class="mb-0">Bank Studio, 23 Park Royal Road, London NW10 7JH</p></div>
-                                         <div class="date-mobile d-flex justify-content-start align-items-center gap-2">
+                                         <div class="date-mobile d-flex justify-content-start align-items-center gap-2 d-block d-md-none ">
                                            <span class="time-icon d-block d-md-none">
                                             <img src="https://i.ibb.co.com/CsWLJfTT/Group-82.png" alt="date-icon" >
                                           </span>
@@ -831,7 +837,7 @@
                                          <div class="location-icon d-flex justify-content-start align-items-center gap-2">
                                           <img src="https://i.ibb.co.com/kV9HgLYN/Group-47.png" alt="location icon" class="d-none d-md-block">
                                          <p class="mb-0">Bank Studio, 23 Park Royal Road, London NW10 7JH</p></div>
-                                         <div class="date-mobile d-flex justify-content-start align-items-center gap-2">
+                                         <div class="date-mobile d-flex justify-content-start align-items-center gap-2 d-block d-md-none">
                                            <span class="time-icon d-block d-md-none">
                                             <img src="https://i.ibb.co.com/CsWLJfTT/Group-82.png" alt="date-icon" >
                                           </span>
@@ -882,7 +888,7 @@
                                          <div class="location-icon d-flex justify-content-start align-items-center gap-2">
                                           <img src="https://i.ibb.co.com/kV9HgLYN/Group-47.png" alt="location icon" class="d-none d-md-block">
                                          <p class="mb-0">Beauty Hub, 45 Deansgate, Manchester M3 2BA</p></div>
-                                         <div class="date-mobile d-flex justify-content-start align-items-center gap-2">
+                                         <div class="date-mobile d-flex justify-content-start align-items-center gap-2 d-block d-md-none">
                                            <span class="time-icon d-block d-md-none">
                                             <img src="https://i.ibb.co.com/CsWLJfTT/Group-82.png" alt="date-icon" >
                                           </span>
@@ -946,7 +952,16 @@
     </div>
 
 </section>
+<div id="dateModal" style="display:none; position:fixed; bottom:0; left:0; width:100%; background:white; z-index:1000; border-top-left-radius:20px; border-top-right-radius:20px; box-shadow:0 -5px 15px rgba(0,0,0,0.2); padding:20px; animation: slideUp 0.3s ease-out;">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h6 class="mb-0">Choose Training Date</h6>
+        <button id="closeModal" style="border:none; background:none; font-size:20px;">&times;</button>
+    </div>
+    <div id="dateOptionsList" class="d-flex flex-column gap-2">
+        </div>
+</div>
 
+<div id="modalOverlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); z-index:999;"></div>
 <!-- FAQS -->
  <section  id="faqs">
     <div class="container">

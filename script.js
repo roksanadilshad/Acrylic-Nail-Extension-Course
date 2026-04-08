@@ -62,16 +62,16 @@ function updateUI(index) {
     }
 
     // 3. Testimonial Text with Truncation (Read More logic)
-    const textElement = document.getElementById('testimonial-text');
-    if (textElement) {
-        const limit = 150; // Set a reasonable limit for your design
-        if (data.text.length > limit) {
-            const truncatedText = data.text.substring(0, limit) + "...";
-            textElement.innerHTML = `"${truncatedText}" <span class="text-primary fw-bold ms-1" style="cursor:pointer;" onclick="openFullReview()">read more</span>`;
-        } else {
-            textElement.innerText = `"${data.text}"`;
-        }
-    }
+    // const textElement = document.getElementById('testimonial-text');
+    // if (textElement) {
+    //     const limit = 150; // Set a reasonable limit for your design
+    //     if (data.text.length > limit) {
+    //         const truncatedText = data.text.substring(0, limit) + "...";
+    //         textElement.innerHTML = `"${truncatedText}" <span class="text-primary fw-bold ms-1" style="cursor:pointer;" onclick="openFullReview()">read more</span>`;
+    //     } else {
+    //         textElement.innerText = `"${data.text}"`;
+    //     }
+    // }
 
     // 4. Refresh the progress bars (thumbs)
     renderThumbs();
@@ -136,6 +136,7 @@ if(playBtn) {
 // booking logic
 document.addEventListener('DOMContentLoaded', async () => {
     const trainingContainer = document.querySelector('.book-traning-cards');
+
     const seeMoreBtn = document.querySelector('.see-more-btn');
     let displayedCount = 3;
     let trainingData = [];
@@ -200,26 +201,37 @@ document.addEventListener('DOMContentLoaded', async () => {
                 </div>
             </div>
             ${item.hasOffer ? `
-            <div class="special-offer position-relative">
-                <span class="discount-top">🔥 Special Offer</span>
-                <div class="d-flex justify-content-between flex-column flex-md-row align-items-md-end align-items-start gap-3">
-                    <div class="special-offer-text d-flex align-items-start">
-                        <img src="https://i.ibb.co.com/Tx5H2cj9/Property-1-Off.png" alt="offer-add" class="offer-add mt-1">
-                        <div>
-                            <p class="p-text-black">
-                            <span class="offer-text">Add Complete Nail Technical 3 Days Course </span><br> 
-                               <small class="text-muted">Scheduled for: <strong>${item.offerDate}</strong></small>
-                            </p>
-                            <p class="text-morning mb-0">Offers are applicable only if you add now!</p>
-                        </div>
+<div class="special-offer position-relative">
+    <span class="discount-top">🔥 Special Offer</span>
+    <div class="d-flex justify-content-between flex-column flex-md-row align-items-md-end align-items-start gap-3">
+        <div class="special-offer-text d-flex align-items-start w-100">
+            <img src="https://i.ibb.co.com/Tx5H2cj9/Property-1-Off.png" alt="offer-add" class="offer-add mt-1">
+            <div class="flex-grow-1 position-relative">
+                <p class="p-text-black mb-1">Add Complete Nail Technical 3 Days Course</p>
+                
+                <div class="custom-select-wrapper">
+                    <div class="offer-date-input d-flex justify-content-between align-items-center">
+                        <span class="selected-val">Select available date...</span>
+                        <img src="https://cdn-icons-png.flaticon.com/512/2985/2985150.png" width="10" alt="arrow">
                     </div>
-                    <div class="special-offer-course d-flex align-items-end justify-content-between gap-2">
-                        <span class="only-for">only for</span>
-                        <span class="current-price">£${item.offerPrice}</span>
-                        <span class="original-price">£350</span>
+                    
+                    <div class="offer-date-dropdown">
+                        <div class="dropdown-item" data-date="18th, 20th April">18th, 20th April</div>
+                        <div class="dropdown-item" data-date="3rd, 10th May">3rd, 10th May</div>
+                        <div class="dropdown-item" data-date="14th, 21st May">14th, 21st May</div>
                     </div>
                 </div>
-            </div>` : ''}
+                
+                <p class="text-morning mb-0 mt-1">Offers are applicable only if you add now!</p>
+            </div>
+        </div>
+        <div class="special-offer-course d-flex align-items-end justify-content-between gap-2">
+            <span class="only-for">only for</span>
+            <span class="current-price">£${item.offerPrice}</span>
+            <span class="original-price">£350</span>
+        </div>
+    </div>
+</div>` : ''}
         </div>`;
     }
 
@@ -245,7 +257,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const mainPriceSpan = card.querySelector('.book-price .current-price');
             const subText = offerDiv.querySelector('.text-morning');
             const spCurrent = offerDiv.querySelector('.special-offer-course .current-price'); 
-            const offerPriceVal = parseInt(offerDiv.querySelector('.special-offer-course .current-price').textContent.replace('£', ''));
+            const offerPriceVal = parseInt(spCurrent.textContent.replace('£', ''));
             const basePrice = parseInt(mainPriceSpan.dataset.base);
 
             if (offerImg.src.includes('Property-1-Off.png')) {
@@ -265,28 +277,41 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         }
 
+        // --- 2. DROPDOWN TOGGLE LOGIC ---
+        const dateInput = e.target.closest('.offer-date-input');
+        if (dateInput) {
+            // Close other dropdowns
+            document.querySelectorAll('.offer-date-dropdown').forEach(d => {
+                if(d !== dateInput.nextElementSibling) d.classList.remove('show');
+            });
+            // Toggle current one
+            dateInput.nextElementSibling.classList.toggle('show');
+        }
+
+        // --- 3. DROPDOWN ITEM SELECTION ---
+        const dropItem = e.target.closest('.dropdown-item');
+        if (dropItem) {
+            const dropdown = dropItem.parentElement;
+            const selectedSpan = dropdown.previousElementSibling.querySelector('.selected-val');
+            selectedSpan.textContent = dropItem.dataset.date;
+            selectedSpan.style.color = "#000";
+            selectedSpan.style.fontWeight = "600";
+            dropdown.classList.remove('show');
+        }
+
+        // --- 4. BOOKING LOGIC ---
         if (e.target.classList.contains('book-now-btn')) {
-            const btn = e.target;
-            const alertSpan = card.querySelector('.alert-for-seats span');
-            let seatMatch = alertSpan.textContent.match(/\d+/);
-            
-            if (seatMatch) {
-                let count = parseInt(seatMatch[0]);
-                count--;
-                if (count <= 0) {
-                    alertSpan.innerHTML = "Sorry! No Seats Left";
-                    card.querySelector('.alert-for-seats').className = "alert-for-no-seats";
-                    btn.textContent = "Fully Booked";
-                    btn.className = "already-booked-btn";
-                    btn.style.backgroundColor = "black";
-                    btn.style.color = "white";
-                } else {
-                    alertSpan.innerHTML = `<span class="d-md-none d-inline-block">🔥</span>Hurry! Only ${count} Seats Left`;
-                    btn.textContent = "Booked";
-                }
-            }
+            // ... (Your existing booking seat decrement logic)
         }
     });
+
+    // --- 5. GLOBAL CLICK (To close dropdown when clicking outside) ---
+    window.addEventListener('click', (event) => {
+        if (!event.target.closest('.custom-select-wrapper')) {
+            document.querySelectorAll('.offer-date-dropdown').forEach(d => d.classList.remove('show'));
+        }
+    });
+    
 
     seeMoreBtn.addEventListener('click', () => {
         if (displayedCount < trainingData.length) {
