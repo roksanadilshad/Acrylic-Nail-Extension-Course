@@ -1,8 +1,7 @@
-
     <main>
       <!-- highlight -->
       <section id="highlight" class="highlight d-none d-lg-flex">
-        <div class="highlight-container col-md-7 mx-auto">
+        <div class="highlight-container mx-auto">
           <div class="d-flex justify-content-center gap-4">
             <div class="hl-card">
               <img
@@ -34,230 +33,237 @@
       </section>
       <!-- hero -->
       <section id="hero">
-        <div class="hero-container container">
-          <div class="d-flex align-items-lg-center flex-lg-row flex-column gap-4">
-            <div class=" col-lg-6 col-12">
-                <div class="hero-text">
-                    <h1>
-                Acrylic Nail Extension
-                <span class="primary-color"> Training London </span
-                ><span class="d-none d-md-inline"> | Face to Face Class </span>
-              </h1>
-              <div class="rating-badge d-inline-flex align-items-center">
-                <div
-                  class="rating-card d-flex justify-content-start align-items-center gap-1"
-                >
-                <span class="fw-bold d-none d-md-inline">Rated 4.9/5</span>
-                <div class="ratings">
+        <div class="hero-container ">
+          <div class="container">
+            <div class="d-flex align-items-lg-center flex-lg-row flex-column gap-4">
+              <div class=" col-lg-6 col-12">
+                <div class="hero-banner-text">
+                   <div class="hero-text">
+                      <h1>
+                  Acrylic Nail Extension
+                  <span class="primary-color"> Training London </span
+                  ><span class="d-none d-md-inline"> | Face to Face Class </span>
+                </h1>
+                </div>
+                <div class="rating-badge d-inline-flex align-items-center">
+                  <div
+                    class="rating-card d-flex justify-content-start align-items-center gap-1"
+                  >
+                  <span class="fw-bold d-none d-md-inline">Rated 4.9/5</span>
+                  <div class="ratings">
+                      <div class="d-flex align-items-center gap-1">
+                        <div class="rating-star">
+                          <img
+                            src="https://i.ibb.co.com/5gMSssxx/Group.png"
+                            alt="rating-star"
+                          />
+                        </div>
+                        <div class="rating-star">
+                          <img
+                            src="https://i.ibb.co.com/5gMSssxx/Group.png"
+                            alt="rating-star"
+                          />
+                        </div>
+                        <div class="rating-star">
+                          <img
+                            src="https://i.ibb.co.com/5gMSssxx/Group.png"
+                            alt="rating-star"
+                          />
+                        </div>
+                        <div class="rating-star">
+                          <img
+                            src="https://i.ibb.co.com/5gMSssxx/Group.png"
+                            alt="rating-star"
+                          />
+                        </div>
+                        <div class="rating-star">
+                          <img
+                            src="https://i.ibb.co.com/5gMSssxx/Group.png"
+                            alt="rating-star"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <span class="fw-bold d-inline d-md-none">Rated 4.9/5</span>
+                    <div class="customer-review ms-2">
+                      <img
+                        src="https://i.ibb.co.com/0yXt1yj4/Group-5.png"
+                        alt="google-img"
+                        class="mb-1"
+                        style="width: 14px"
+                      />
+                      <a href="#" class="customer-reviews-link fw-bold"
+                        >Customer Reviews</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- highlight -->
+                <section id="highlight" class="highlight d-flex d-lg-none">
+                  <div class="highlight-container hl-wrapper col-md-12 mt-md-0 mx-auto">
+                    <div
+                      class="d-flex justify-content-between align-items-center gap-lg-4 gap-1"
+                    >
+                      <div class="hl-card">
+                        <img
+                          src="https://i.ibb.co.com/p6gZ6Pfz/Group-28.png"
+                          alt="CPD Accredited"
+                        />
+                        <span>Nail Kits Included</span>
+                      </div>
+                      <div class="hl-card">
+                        <img
+                          src="https://i.ibb.co.com/HLHX0c6d/Vector-3.png"
+                          alt="CPD Accredited"
+                        />
+                        <span>Insurable</span>
+                      </div>
+                      <div class="hl-card">
+                        <img
+                          src="https://i.ibb.co.com/Kp6fktK0/Group-29.png"
+                          alt="CPD Accredited"
+                        />
+                        <span>IPHM</span>
+                      </div>
+                      <div class="hl-card">
+                        <img src="https://i.ibb.co.com/R4Gs2mPf/Frame.png" />
+                        <span>1Day Training</span>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                </div>
+                  
+                
+                  
+                
+                <p class="title-description d-none d-md-block">
+                  This course is specially designed for beginners willing to gain
+                  the high demand skills in the beauty industry and start their
+                  journey towards becoming professional nail technicians.
+                </p>
+  
+                <div class="course-fee-card">
+                  <h6 class="fw-bold">Course Fee:</h6>
+                  <div class="price d-flex align-items-end">
+                    <span class="current-price">£102</span>
+                    <span class="original-price">£250</span>
+                    <span class="discount-badge">Save 59%</span>
+                  </div>
+                  <p class="description mb-0 d-none d-md-block">
+                    Pay in 3 interest-free installments of £34/installment!
+                  </p>
+                  <div class="course-btn-container d-lg-none d-md-block">
+                      <div class="course-btn-for-enroll">
+              <button class="enroll-active-btn border-0 ">
+                Enroll Now
+                <img
+                  src="https://i.ibb.co.com/gYtkmwm/Group-27.png"
+                  alt="left-arrow"
+                  class="ms-2"
+                />
+              </button>
+              <button class="available-dates-btn ">See Available Dates</button>
+            </div>
+                  </div>
+                </div>
+              </div>
+              <!--course image -->
+              <div class="image-container col-lg-6 col-md-12 col-12">
+                <div style="position: relative">
+                  <img
+                    src="https://i.ibb.co.com/R8z5VcH/Rectangle-1.png"
+                    alt="Acrylic Nail Extension Course"
+                    class="course-image"
+                  />
+  
+                  <div
+                    class="rating-overlay-container shadow-sm ofqual d-none d-lg-flex"
+                  >
+                    <div class="pe-1">
+                      <img
+                        src="https://i.ibb.co.com/F4WXcPm1/Background.png"
+                        alt="Ofqual"
+                        class=""
+                      />
+                    </div>
+                    <div class="d-flex flex-column">
+                      <span class="fw-bold fs-6">Ofqual</span>
+                      <span>Regulated</span>
+                    </div>
+                  </div>
+  
+                  <div
+                    class="rating-overlay-container success-rate shadow-sm d-none d-lg-flex"
+                  >
+                    <img
+                      src="https://i.ibb.co.com/Cyb06Fg/Background-1.png"
+                      alt="Icon"
+                      width="30"
+                    />
+  
+                    <span class="ms-2 fw-bold small text-dark"
+                      >More than
+  
+                      <span class="ms-1 fs-6 fw-bold text-success"> 98% </span>
+                      Success Rate
+                    </span>
+                  </div>
+  
+                  <div
+                    class="rating-overlay-container rating-flot shadow-sm d-none d-lg-flex"
+                  >
                     <div class="d-flex align-items-center gap-1">
                       <div class="rating-star">
                         <img
                           src="https://i.ibb.co.com/5gMSssxx/Group.png"
-                          alt="rating-star"
+                          alt=""
                         />
                       </div>
                       <div class="rating-star">
                         <img
                           src="https://i.ibb.co.com/5gMSssxx/Group.png"
-                          alt="rating-star"
+                          alt=""
                         />
                       </div>
                       <div class="rating-star">
                         <img
                           src="https://i.ibb.co.com/5gMSssxx/Group.png"
-                          alt="rating-star"
+                          alt=""
                         />
                       </div>
                       <div class="rating-star">
                         <img
                           src="https://i.ibb.co.com/5gMSssxx/Group.png"
-                          alt="rating-star"
+                          alt=""
                         />
                       </div>
                       <div class="rating-star">
                         <img
                           src="https://i.ibb.co.com/5gMSssxx/Group.png"
-                          alt="rating-star"
+                          alt=""
                         />
                       </div>
                     </div>
+  
+                    <span class="fw-bold small">Rated 4.9/5</span>
                   </div>
-                  <span class="fw-bold d-inline d-md-none">Rated 4.9/5</span>
-                  <div class="customer-review ms-2">
-                    <img
-                      src="https://i.ibb.co.com/0yXt1yj4/Group-5.png"
-                      alt="google-img"
-                      class="mb-1"
-                      style="width: 14px"
-                    />
-                    <a href="#" class="customer-reviews-link fw-bold"
-                      >Customer Reviews</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <!-- highlight -->
-              <section id="highlight" class="highlight d-flex d-md-none">
-                <div class="highlight-container hl-wrapper col-md-12 mx-auto">
-                  <div
-                    class="d-flex justify-content-between align-items-center gap-lg-4 gap-1"
-                  >
-                    <div class="hl-card">
-                      <img
-                        src="https://i.ibb.co.com/p6gZ6Pfz/Group-28.png"
-                        alt="CPD Accredited"
-                      />
-                      <span>Nail Kits Included</span>
-                    </div>
-                    <div class="hl-card">
-                      <img
-                        src="https://i.ibb.co.com/HLHX0c6d/Vector-3.png"
-                        alt="CPD Accredited"
-                      />
-                      <span>Insurable</span>
-                    </div>
-                    <div class="hl-card">
-                      <img
-                        src="https://i.ibb.co.com/Kp6fktK0/Group-29.png"
-                        alt="CPD Accredited"
-                      />
-                      <span>IPHM</span>
-                    </div>
-                    <div class="hl-card">
-                      <img src="https://i.ibb.co.com/R4Gs2mPf/Frame.png" />
-                      <span>1Day Training</span>
-                    </div>
-                  </div>
-                </div>
-              </section>
-                </div>
-              
-              <p class="title-description d-none d-md-block">
-                This course is specially designed for beginners willing to gain
-                the high demand skills in the beauty industry and start their
-                journey towards becoming professional nail technicians.
-              </p>
-
-              <div class="course-fee-card">
-                <h6 class="fw-bold">Course Fee:</h6>
-                <div class="price d-flex align-items-end">
-                  <span class="current-price">£102</span>
-                  <span class="original-price">£250</span>
-                  <span class="discount-badge">Save 59%</span>
-                </div>
-                <p class="description mb-0 d-none d-md-block">
-                  Pay in 3 interest-free installments of £34/installment!
-                </p>
-                <div class="course-btn-container d-lg-none d-md-block">
-                    <div class="course-btn-for-enroll">
-            <button class="enroll-active-btn border-0 ">
-              Enroll Now
-              <img
-                src="https://i.ibb.co.com/gYtkmwm/Group-27.png"
-                alt="left-arrow"
-                class="ms-2"
-              />
-            </button>
-            <button class="available-dates-btn ">See Available Dates</button>
-          </div>
                 </div>
               </div>
             </div>
-            <!--course image -->
-            <div class="image-container col-lg-6 col-md-12 col-12">
-              <div style="position: relative">
+          </div>
+          
+            <div class="course-btn-for-enroll  container d-none d-lg-block">
+              <button class="enroll-active-btn border-0">
+                Enroll Now
                 <img
-                  src="https://i.ibb.co.com/R8z5VcH/Rectangle-1.png"
-                  alt="Acrylic Nail Extension Course"
-                  class="course-image"
+                  src="https://i.ibb.co.com/gYtkmwm/Group-27.png"
+                  alt="left-arrow"
+                  class="ms-2"
                 />
-
-                <div
-                  class="rating-overlay-container shadow-sm ofqual d-none d-lg-flex"
-                >
-                  <div class="pe-1">
-                    <img
-                      src="https://i.ibb.co.com/F4WXcPm1/Background.png"
-                      alt="Ofqual"
-                      class=""
-                    />
-                  </div>
-                  <div class="d-flex flex-column">
-                    <span class="fw-bold fs-6">Ofqual</span>
-                    <span>Regulated</span>
-                  </div>
-                </div>
-
-                <div
-                  class="rating-overlay-container success-rate shadow-sm d-none d-lg-flex"
-                >
-                  <img
-                    src="https://i.ibb.co.com/Cyb06Fg/Background-1.png"
-                    alt="Icon"
-                    width="30"
-                  />
-
-                  <span class="ms-2 fw-bold small text-dark"
-                    >More than
-
-                    <span class="ms-1 fs-6 fw-bold text-success"> 98% </span>
-                    Success Rate
-                  </span>
-                </div>
-
-                <div
-                  class="rating-overlay-container rating-flot shadow-sm d-none d-lg-flex"
-                >
-                  <div class="d-flex align-items-center gap-1">
-                    <div class="rating-star">
-                      <img
-                        src="https://i.ibb.co.com/5gMSssxx/Group.png"
-                        alt=""
-                      />
-                    </div>
-                    <div class="rating-star">
-                      <img
-                        src="https://i.ibb.co.com/5gMSssxx/Group.png"
-                        alt=""
-                      />
-                    </div>
-                    <div class="rating-star">
-                      <img
-                        src="https://i.ibb.co.com/5gMSssxx/Group.png"
-                        alt=""
-                      />
-                    </div>
-                    <div class="rating-star">
-                      <img
-                        src="https://i.ibb.co.com/5gMSssxx/Group.png"
-                        alt=""
-                      />
-                    </div>
-                    <div class="rating-star">
-                      <img
-                        src="https://i.ibb.co.com/5gMSssxx/Group.png"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-
-                  <span class="fw-bold small">Rated 4.9/5</span>
-                </div>
-              </div>
+              </button>
+              <button class="available-dates-btn">See Available Dates</button>
             </div>
-          </div>
-        </div>
-        
-          <div class="course-btn-for-enroll  container d-none d-lg-block">
-            <button class="enroll-active-btn border-0">
-              Enroll Now
-              <img
-                src="https://i.ibb.co.com/gYtkmwm/Group-27.png"
-                alt="left-arrow"
-                class="ms-2"
-              />
-            </button>
-            <button class="available-dates-btn">See Available Dates</button>
           </div>
         
       </section>
@@ -265,8 +271,9 @@
       <section id="accredited">
         <div class="container">
           <div class="accredited-container">
-               <div class="sub-heading">
+               <div class="accordited-title text-center">
                 <h2>Accredited By</h2>
+               </div>
                 <div class="">
   <div class="arccedited-card">
                   <img
@@ -290,7 +297,7 @@
                 
                </div>
           </div>
-        </div>
+       
         
       </section>
       <!-- experience gallery -->
@@ -329,7 +336,9 @@
       <section id="course-for" >
         <div class="course-for-container">
             <div class="container ">
-            <h2 class="mb-0">Who Is This Course For?</h2>
+              <div class="accordited-title text-center">
+                <h2 class="mb-0">Who Is This Course For?</h2>
+              </div>
        
         <div class="d-flex justify-content-between flex-lg-row flex-column align-items-center text-center gap-4">
   
@@ -368,7 +377,7 @@
       <section id="about-the-course">
         <div class="about-the-course-container  ">
         <div class="container">
-            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-lg-5">
+            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 gap-md-5">
 
               <div class="article-about-heading d-md-block d-lg-none">
                 <span class="top-title text-center d-block">About The Course</span>
@@ -665,7 +674,7 @@
           <div class="right-dot-fill position-absolute"></div>
         </div>
         <div class="w-100 h-100  p-2 overflow-hidden ">
-            <img id="main-img" src="https://i.ibb.co.com/TfRfn4m/Ellipse-78.png" 
+            <img id="main-img" src="https://i.ibb.co.com/6R1KZt9s/Overlay-Shadow.png" 
                                          class="  main-video-thumbnail " alt="User Video"
                                          >
                                          <button class="play-btn">
@@ -730,7 +739,7 @@
                                          <div class="location-icon d-flex justify-content-start align-items-center gap-2">
                                           <img src="https://i.ibb.co.com/kV9HgLYN/Group-47.png" alt="location icon" class="d-none d-md-block">
                                          <p class="mb-0">Bank Studio, 23 Park Royal Road, London NW10 7JH</p></div>
-                                         <div class="date-mobile d-flex justify-content-start align-items-center gap-2">
+                                         <div class="date-mobile d-flex justify-content-start align-items-center gap-2 d-block d-md-none ">
                                            <span class="time-icon d-block d-md-none">
                                             <img src="https://i.ibb.co.com/CsWLJfTT/Group-82.png" alt="date-icon" >
                                           </span>
@@ -800,7 +809,7 @@
                                          <div class="location-icon d-flex justify-content-start align-items-center gap-2">
                                           <img src="https://i.ibb.co.com/kV9HgLYN/Group-47.png" alt="location icon" class="d-none d-md-block">
                                          <p class="mb-0">Bank Studio, 23 Park Royal Road, London NW10 7JH</p></div>
-                                         <div class="date-mobile d-flex justify-content-start align-items-center gap-2">
+                                         <div class="date-mobile d-flex justify-content-start align-items-center gap-2 d-block d-md-none">
                                            <span class="time-icon d-block d-md-none">
                                             <img src="https://i.ibb.co.com/CsWLJfTT/Group-82.png" alt="date-icon" >
                                           </span>
@@ -851,7 +860,7 @@
                                          <div class="location-icon d-flex justify-content-start align-items-center gap-2">
                                           <img src="https://i.ibb.co.com/kV9HgLYN/Group-47.png" alt="location icon" class="d-none d-md-block">
                                          <p class="mb-0">Beauty Hub, 45 Deansgate, Manchester M3 2BA</p></div>
-                                         <div class="date-mobile d-flex justify-content-start align-items-center gap-2">
+                                         <div class="date-mobile d-flex justify-content-start align-items-center gap-2 d-block d-md-none">
                                            <span class="time-icon d-block d-md-none">
                                             <img src="https://i.ibb.co.com/CsWLJfTT/Group-82.png" alt="date-icon" >
                                           </span>
@@ -915,7 +924,6 @@
     </div>
 
 </section>
-
 <!-- FAQS -->
  <section  id="faqs">
     <div class="container">
@@ -967,12 +975,3 @@ How long does it take to complete a acrylic nail extension?
 
  </section>
     </main>
-
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-    <script src="script.js"></script>
-    <!-- Fancybox JS -->
