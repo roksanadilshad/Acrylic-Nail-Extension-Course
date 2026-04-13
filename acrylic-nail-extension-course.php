@@ -1,4 +1,3 @@
-
     <main>
       <!-- highlight -->
       <section id="highlight" class="highlight d-none d-lg-flex">
@@ -976,12 +975,3 @@ How long does it take to complete a acrylic nail extension?
 
  </section>
     </main>
-
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-    <script src="script.js"></script>
-    <!-- Fancybox JS -->
