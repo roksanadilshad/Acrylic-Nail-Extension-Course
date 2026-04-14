@@ -163,24 +163,19 @@ gap: 24px;
 border-radius: 8px;
 margin: 36px 20px;
 }
+/* accredited */
 .accordited-title h2, .sub-heading h2{
 font-weight: 600;
 font-size: 20px;
 margin-bottom: 24px;
 }
-.arccedited-card{
-padding: 10px;
-gap: 20px;
-border-radius: 8px;
-margin: 0 auto;
-}
-.arccedited-card img{
-width: 50px;
-height: 45px;
-opacity: 1;
-border-radius: 8px;
-border-width: 1px;
-
+.Accredited-img img{
+  width: 100%;
+  height: 200%;
+  object-fit: cover; 
+  border-radius: 12px;
+  display: block;
+  object-position: center;
 }
 
 .experience-gellary-container{
@@ -196,11 +191,12 @@ margin-bottom: 10px;
   margin-bottom: 10px;
 }
  .subtitle{
-font-weight: 400;
+font-weight: 500;
 font-style: Regular;
 font-size: 14px;
 line-height: 100%;
 letter-spacing: 0%;
+margin-bottom: 14px !important;
 }
 .sub-heading{
   margin-bottom: 36px;
@@ -218,7 +214,7 @@ padding: 18px 14px;
 gap: 12px;
 border-radius: 8px;
 width: 340px;
-height: 143px;
+height: 170px;
 }
 .course-for-card h5{
 font-size: 16px;
@@ -284,8 +280,9 @@ background: rgba(247, 248, 250, 1);
 .style-icon-container{
 padding: 28px 0 21px 24px;
 }
-.style-icon-container h3{
+.style-icon-container .style-icon-title{
 font-size: 18px;
+margin-bottom: 8px;
 }
 .suggetions-card{
 padding: 24px;
@@ -294,7 +291,7 @@ padding: 24px;
 .session-type{
   margin-bottom: 24px;
 }
-.session-type h4{
+.session-type .style-icon-heading{
 font-size: 16px;
 font-weight: 600;
 margin-bottom: 14px;
@@ -314,55 +311,105 @@ width: 12px;
 
 /* testimonial */
 .testimonial-container{
-gap: 36px;
+gap: 24px;
 padding: 0;
-margin: 36px 20px;
+margin: 24px 16px;
 background: #FFFFFF;
 
 }
 .badge-top{
-display: none;
+padding: 6px 12px;
+font-size: 10px;
+margin-bottom: 12px;
 }
 .testimonial-card{
-gap: 700px;
+gap: 24px;
 padding: 18px 16px;
-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.05);;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.05);
 border: 1px solid rgba(226, 226, 227, 1);
 background: rgba(255, 255, 255, 1);
 }
 .user-name{
-  font-size: 14px;
-  font-weight: 600;
-  margin-bottom: 6px !important;
-   line-height: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 4px !important;
+  line-height: 1.2;
 }
 .user-address, .user-role{
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 400;
   color: rgba(147, 147, 147, 1);
-  margin-bottom: 10px !important;
+  margin-bottom: 8px !important;
   display: inline-block;
 }
 .testimonial-title{
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 700;
   margin-bottom: 8px;
 }
 .testimonial-content{
   font-size: 14px;
   font-weight: 400;
-  line-height: 100%;
+  line-height: 150%;
   letter-spacing: 0%;
-  margin-bottom: 34px;
+  margin-bottom: 16px;
   width: 100%;
 }
-
+/* Mobile video area */
+.video-wrapper-responsive {
+  max-width: 250px;
+  margin: 0 auto 16px auto;
+  position: relative;
+}
+.box {
+  width: 260px !important;
+  height: 300px !important;
+}
+.inner-box .overflow-hidden {
+  width: 220px !important;
+  height: 280px !important;
+}
+.main-video-thumbnail {
+  width: 100% !important;
+  height: 260px !important;
+  padding: 12px !important;
+}
+.top-circle {
+  width: 120px !important;
+  height: 150px !important;
+  left: 20px !important;
+  top: -15px !important;
+}
+.bottom-circle {
+  width: 120px !important;
+  height: 150px !important;
+  right: 20px !important;
+  bottom: 0px !important;
+}
+.dot-orange {
+  width: 18px;
+  height: 18px;
+  background: rgba(233, 32, 99, 0.4);
+  border-radius: 50%;
+  position: absolute;
+  bottom: -8px;
+  right: 30px;
+}
+.dot-purple {
+  width: 14px;
+  height: 14px;
+  background: rgba(22, 132, 66, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  left: 30px;
+}
 .thumb-line {
 border-radius: 9999px;
 background: #E5E7EB;
     cursor: pointer;
     display: inline-block;
-    margin: 0 6px;
+    margin: 0 4px;
     transition: background-color 0.3s ease;
 }
 .nav-btn {
@@ -380,7 +427,7 @@ background: #E5E7EB;
 
 .testimonial-arrow-left {
   position: absolute;
-  left: 30px;
+  left: 10px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 5;
@@ -388,7 +435,7 @@ background: #E5E7EB;
 
 .testimonial-arrow-right {
   position: absolute;
-  right: 30px; 
+  right: 10px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 5;
@@ -403,7 +450,31 @@ box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 .nav-btn:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
+}
+.mobile-nav-btn {
+  background: var(--primary-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.mobile-nav-btn img {
+  width: 18px;
+  height: 18px;
+  filter: brightness(0) invert(1);
+}
+.rating-star {
+  width: 14px !important;
+  height: 14px !important;
+  padding: 2px !important;
+}
+.rating-star img {
+  width: 10px !important;
+  height: 10px !important;
 }
 /* book traning */
 .book-traning-container{
@@ -452,6 +523,7 @@ font-size: 12px;
 .book-price{
 display: flex;
 flex-direction: column;
+width: 45%;
 gap: 10px;
 }
 .book-price .pricing-tag{
@@ -592,39 +664,41 @@ border-width: 1px;
     height: calc(50% - 7.5px);
   }
 .badge-top{
-display: none;
+padding: 6px 12px;
+font-size: 12px;
+margin-bottom: 16px;
 }
 .testimonial-card{
-gap: 700px;
-padding: 18px 16px;
-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.05);;
+gap: 24px;
+padding: 24px 20px;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.05);
 border: 1px solid rgba(226, 226, 227, 1);
 background: rgba(255, 255, 255, 1);
 }
 .user-name{
-  font-size: 14px;
-  font-weight: 600;
-  margin-bottom: 6px !important;
-   line-height: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 4px !important;
+  line-height: 1.2;
 }
 .user-address, .user-role{
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 400;
   color: rgba(147, 147, 147, 1);
-  margin-bottom: 10px !important;
+  margin-bottom: 8px !important;
   display: inline-block;
 }
 .testimonial-title{
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 700;
   margin-bottom: 8px;
 }
 .testimonial-content{
   font-size: 14px;
   font-weight: 400;
-  line-height: 100%;
+  line-height: 150%;
   letter-spacing: 0%;
-  margin-bottom: 34px;
+  margin-bottom: 24px;
   width: 100%;
 }
 

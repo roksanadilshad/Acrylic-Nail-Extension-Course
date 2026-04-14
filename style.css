@@ -55,7 +55,7 @@ height: 20px !important;
 padding-top: 20px;
 margin: 20px 40px;
 }
-.hero-text{
+body #main h1.hero-text{
 font-weight: 700 !important;
 font-weight: Bold !important;
 font-size: 40px !important;
@@ -269,19 +269,13 @@ text-align: center;
 vertical-align: middle;
 margin-bottom: 36px;
 }
-.arccedited-card{
-padding: 24px 150px;
-gap: 100px;
-opacity: 1;
-border-width: 1px;
-border-radius: 12px;
-background: #FFFFFF;
-border: 1px solid #E2E2E3;
-display: flex;
-align-items: center;
-justify-content: center;
-width: 90%;
-margin: 0 auto;
+.Accredited-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 12px;
+  display: block;
+  object-position: center;
 }
 /* experience gallery */
 .experience-gellary-container{
@@ -300,6 +294,7 @@ text-align: center;
 vertical-align: middle;
 color: var(--primary-color);
 margin-bottom: 18px;
+display: block;
 }
 .sub-heading h2{
   margin-bottom: 18px;
@@ -317,6 +312,7 @@ line-height: 146%;
 letter-spacing: 1%;
 vertical-align: middle;
 text-align: center;
+margin-bottom: 16px;
 }
 .sub-heading{
   margin-bottom: 64px;
@@ -397,6 +393,10 @@ margin: 0 auto;
   margin-bottom: 36px !important;
   font-size: 36px;
 }
+.about-the-course-container ul{
+ padding-left: 0px !important;
+  margin: 0px !important;
+}
 .about-the-course-container-img img{
   width: 100%;
 margin: 0 auto;
@@ -407,7 +407,7 @@ margin-left: 4px;
 
 
 }
-.about-description p{
+.about-description {
 font-weight: 500;
 font-weight: Medium;
 font-size: 18px;
@@ -460,10 +460,6 @@ margin: 0 auto;
   background: rgba(246, 78, 133, 0.08);
 
 }
-
-.style-icon-container i {
-  background: rgba(218, 51, 105, 0.1);
-}
 .style-card-evening {
   border-top-width: 10px;
   border-top-color: #f64e85;
@@ -483,7 +479,7 @@ margin: 0 auto;
 .style-icon-container{
 padding: 32px 0 19px 32px;
 }
-.style-icon-container h3{
+.style-icon-container .style-icon-title{
 font-size: 30px;
 margin-bottom: 8px;
 }
@@ -497,7 +493,11 @@ padding: 32px;
 .session-type{
   margin-bottom: 24px;
 }
-.session-type h4{
+.session-type ul{
+  padding-left: 0px !important;
+  margin: 0px !important;
+}
+.session-type .style-icon-heading{
 font-size: 20px;
 font-weight: 600;
 margin-bottom: 18px;
@@ -530,7 +530,7 @@ margin-bottom: 48px;
 margin-right: 12px;
 }
 .testimonial-card{
-gap: 100px;
+gap: 40px;
 opacity: 1;
 padding: 60px 32px;
 border-radius: 12px;
@@ -679,17 +679,16 @@ z-index: 10;
 .box img:hover {
    transform: scale(102%);
 }
-.play-btn {
+.play-btn img {
   position: absolute;
   top: 45%;
-  left: 50%;
+  left: 45%;
+  padding: 15px 17px;
   transform: translate(-50%, -50%);
   background: rgba(22, 132, 66, 1);
   color: white;
   border: none;
-  border-radius: 50%;
-  width: 56px;
-  height: 56px;
+  border-radius: 9999px;
 }
 .thumb-line {
     width: 103;
@@ -705,18 +704,11 @@ background: #E5E7EB;
 #thumb-container .thumb-line.active {
     background: #E92063 !important; 
 }
-.nav-btn {
-  background: var(--primary-color);
-  color: white;
-  border-radius: 50%;
-  width: 45px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.nav-btn , .play-btn{
   border: none;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: none;
 }
+
 
 .testimonial-arrow-left {
   position: absolute;
@@ -733,13 +725,12 @@ background: #E5E7EB;
   transform: translateY(-50%);
   z-index: 5;
 }
-.nav-btn {
+.nav-btn img{
   background-color: var(--primary-color);
   color: white;
   border: none;
   border-radius: 50%;
-  width: 59px;
-  height: 59px;
+  padding: 20px 25px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -747,9 +738,9 @@ background: #E5E7EB;
   transition: all 0.2s ease;
 }
 
-.nav-btn:hover {
+.nav-btn img:hover {
  
-  transform: translateY(-50%) scale(1.1); 
+  transform:scale(1.1); 
 }
 .user-name{
   font-size: 22px;
