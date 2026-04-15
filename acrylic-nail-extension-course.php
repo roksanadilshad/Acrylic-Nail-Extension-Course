@@ -4,19 +4,19 @@
         <div class="highlight-container mx-auto">
             <div class="d-flex justify-content-center gap-4">
                 <div class="hl-card">
-                    <img src="https://i.ibb.co.com/p6gZ6Pfz/Group-28.webp" alt="CPD Accredited" />
+                    <img src="https://lead-academy.org/wp-content/uploads/0223/12/group-28.webp" alt="CPD Accredited" />
                     <span>CPD Accredited</span>
                 </div>
                 <div class="hl-card">
-                    <img src="https://i.ibb.co.com/HLHX0c6d/Vector-3.webp" alt="CPD Accredited" />
+                    <img src="https://lead-academy.org/wp-content/uploads/0223/12/vector-3.webp" alt="CPD Accredited" />
                     <span>Insurance Eligible</span>
                 </div>
                 <div class="hl-card">
-                    <img src="https://i.ibb.co.com/Kp6fktK0/Group-29.webp" alt="CPD Accredited" />
+                    <img src="https://lead-academy.org/wp-content/uploads/0223/12/group-29.webp" alt="CPD Accredited" />
                     <span>IPHM Recognised</span>
                 </div>
                 <div class="hl-card">
-                    <img src="https://i.ibb.co.com/R4Gs2mPf/Frame.webp" />
+                    <img src="https://lead-academy.org/wp-content/uploads/0223/12/frame.webp" />
                     <span>1 Day Duration</span>
                 </div>
             </div>
@@ -42,26 +42,26 @@
                                     <div class="ratings">
                                         <div class="d-flex align-items-center gap-1">
                                             <div class="rating-star">
-                                                <img src="https://i.ibb.co.com/5gMSssxx/Group.webp" alt="rating-star" />
+                                                <img src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp" alt="rating-star" />
                                             </div>
                                             <div class="rating-star">
-                                                <img src="https://i.ibb.co.com/5gMSssxx/Group.webp" alt="rating-star" />
+                                                <img src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp" alt="rating-star" />
                                             </div>
                                             <div class="rating-star">
-                                                <img src="https://i.ibb.co.com/5gMSssxx/Group.webp" alt="rating-star" />
+                                                <img src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp" alt="rating-star" />
                                             </div>
                                             <div class="rating-star">
-                                                <img src="https://i.ibb.co.com/5gMSssxx/Group.webp" alt="rating-star" />
+                                                <img src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp" alt="rating-star" />
                                             </div>
                                             <div class="rating-star">
-                                                <img src="https://i.ibb.co.com/5gMSssxx/Group.webp" alt="rating-star" />
+                                                <img src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp" alt="rating-star" />
                                             </div>
                                         </div>
                                     </div>
                                     <span class="fw-bold d-inline d-md-none">Rated 4.9/5</span>
                                     <div class="customer-review ms-2">
                                         <img
-                                            src="https://i.ibb.co.com/0yXt1yj4/Group-5.webp"
+                                            src="https://lead-academy.org/wp-content/uploads/0223/12/group-5.webp"
                                             alt="google-img"
                                             class="mb-1"
                                             style="width: 14px"
@@ -76,27 +76,27 @@
                                     <div class="d-flex justify-content-between align-items-center gap-lg-4 gap-1">
                                         <div class="hl-card">
                                             <img
-                                                src="https://i.ibb.co.com/p6gZ6Pfz/Group-28.webp"
+                                                src="https://lead-academy.org/wp-content/uploads/0223/12/group-28.webp"
                                                 alt="CPD Accredited"
                                             />
                                             <span>Nail Kits Included</span>
                                         </div>
                                         <div class="hl-card">
                                             <img
-                                                src="https://i.ibb.co.com/HLHX0c6d/Vector-3.webp"
+                                                src="https://lead-academy.org/wp-content/uploads/0223/12/vector-3.webp"
                                                 alt="CPD Accredited"
                                             />
                                             <span>Insurable</span>
                                         </div>
                                         <div class="hl-card">
                                             <img
-                                                src="https://i.ibb.co.com/Kp6fktK0/Group-29.webp"
+                                                src="https://lead-academy.org/wp-content/uploads/0223/12/group-29.webp"
                                                 alt="CPD Accredited"
                                             />
                                             <span>IPHM</span>
                                         </div>
                                         <div class="hl-card">
-                                            <img src="https://i.ibb.co.com/R4Gs2mPf/Frame.webp" />
+                                            <img src="https://lead-academy.org/wp-content/uploads/0223/12/frame.webp" />
                                             <span>1Day Training</span>
                                         </div>
                                     </div>
@@ -124,7 +124,7 @@
                                     <button class="enroll-active-btn border-0">
                                         Enroll Now
                                         <img
-                                            src="https://i.ibb.co.com/gYtkmwm/Group-27.webp"
+                                            src="https://lead-academy.org/wp-content/uploads/0223/12/group-27.webp"
                                             alt="left-arrow"
                                             class="ms-2"
                                         />
@@ -138,14 +138,14 @@
                     <div class="image-container col-lg-6 col-md-12 col-12">
                         <div style="position: relative">
                             <img
-                                src="https://i.ibb.co.com/R8z5VcH/Rectangle-1.webp"
+                                src="https://lead-academy.org/wp-content/uploads/0223/12/rectangle-1.webp"
                                 alt="Acrylic Nail Extension Course"
                                 class="course-image-main"
                             />
 
                             <div class="rating-overlay-container shadow-sm ofqual d-none d-lg-flex">
                                 <div class="pe-1">
-                                    <img src="https://i.ibb.co.com/F4WXcPm1/Background.webp" alt="Ofqual" class="" />
+                                    <img src="https://lead-academy.org/wp-content/uploads/0223/12/background.webp" alt="Ofqual" class="" />
                                 </div>
                                 <div class="d-flex flex-column">
                                     <span class="fw-bold fs-6">Ofqual</span>
@@ -154,7 +154,7 @@
                             </div>
 
                             <div class="rating-overlay-container success-rate shadow-sm d-none d-lg-flex">
-                                <img src="https://i.ibb.co.com/Cyb06Fg/Background-1.webp" alt="Icon" width="30" />
+                                <img src="https://lead-academy.org/wp-content/uploads/0223/12/background-1.webp" alt="Icon" width="30" />
 
                                 <span class="ms-2 fw-bold small text-dark"
                                     >More than
@@ -167,19 +167,19 @@
                             <div class="rating-overlay-container rating-flot shadow-sm d-none d-lg-flex">
                                 <div class="d-flex align-items-center gap-1">
                                     <div class="rating-star">
-                                        <img src="https://i.ibb.co.com/5gMSssxx/Group.webp" alt="" />
+                                        <img src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp" alt="" />
                                     </div>
                                     <div class="rating-star">
-                                        <img src="https://i.ibb.co.com/5gMSssxx/Group.webp" alt="" />
+                                        <img src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp" alt="" />
                                     </div>
                                     <div class="rating-star">
-                                        <img src="https://i.ibb.co.com/5gMSssxx/Group.webp" alt="" />
+                                        <img src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp" alt="" />
                                     </div>
                                     <div class="rating-star">
-                                        <img src="https://i.ibb.co.com/5gMSssxx/Group.webp" alt="" />
+                                        <img src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp" alt="" />
                                     </div>
                                     <div class="rating-star">
-                                        <img src="https://i.ibb.co.com/5gMSssxx/Group.webp" alt="" />
+                                        <img src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp" alt="" />
                                     </div>
                                 </div>
 
@@ -193,7 +193,7 @@
             <div class="course-btn-for-enroll container d-none d-lg-block">
                 <button class="enroll-active-btn border-0">
                     Enroll Now
-                    <img src="https://i.ibb.co.com/gYtkmwm/Group-27.webp" alt="left-arrow" class="ms-2" />
+                    <img src="https://lead-academy.org/wp-content/uploads/0223/12/group-27.webp" alt="left-arrow" class="ms-2" />
                 </button>
                 <button class="available-dates-btn">See Available Dates</button>
             </div>
@@ -207,7 +207,7 @@
                     <h2>Accredited By</h2>
                 </div>
                 <div class="d-flex justify-content-center align-items-center Accredited-img">
-                    <img src="https://i.ibb.co.com/NMRqJ0z/Frame-252.webp" alt="Accredited By" />
+                    <img src="https://lead-academy.org/wp-content/uploads/0223/12/frame-252.webp" alt="Accredited By" />
                 </div>
             </div>
         </div>
@@ -223,16 +223,16 @@
                 </div>
                 <div class="image-gallery">
                     <div class="gallery-column leftside-img">
-                        <img src="https://i.ibb.co.com/wNFm2Tqr/Rectangle-3.webp" alt="Nail Extension Training" />
+                        <img src="https://lead-academy.org/wp-content/uploads/0223/12/rectangle-3.webp" alt="Nail Extension Training" />
                     </div>
 
                     <div class="gallery-column middle-img">
-                        <img src="https://i.ibb.co.com/ynCXPXCT/Rectangle-4.webp" alt="Nail Extension Training" />
-                        <img src="https://i.ibb.co.com/rVGdQGz/Rectangle-6.webp" alt="Nail Extension Training" />
+                        <img src="https://lead-academy.org/wp-content/uploads/0223/12/rectangle-4.webp" alt="Nail Extension Training" />
+                        <img src="https://lead-academy.org/wp-content/uploads/0223/12/rectangle-6.webp" alt="Nail Extension Training" />
                     </div>
 
                     <div class="gallery-column rightside-img">
-                        <img src="https://i.ibb.co.com/4ZMmKj58/Rectangle-5.webp" alt="Nail Extension Training" />
+                        <img src="https://lead-academy.org/wp-content/uploads/0223/12/rectangle-5.webp" alt="Nail Extension Training" />
                     </div>
                 </div>
 
@@ -254,27 +254,27 @@
                     class="d-flex justify-content-between flex-lg-row flex-column align-items-center text-center gap-4"
                 >
                     <article class="course-for-card d-flex align-items-center flex-column">
-                        <img src="https://i.ibb.co.com/0VhHRzYs/Frame-31.webp" alt="Beginner Beauticians" />
+                        <img src="https://lead-academy.org/wp-content/uploads/0223/12/frame-31.webp" alt="Beginner Beauticians" />
                         <p class="mb-0 course-for-card-title fw-bold">Beginner Beauticians</p>
                         <p class="mb-0">No prior qualifications needed to enroll</p>
                     </article>
                     <article class="course-for-card d-flex align-items-center flex-column">
-                        <img src="https://i.ibb.co.com/kV99KwKG/Frame-37.webp" alt="Makeup Artists" />
+                        <img src="https://lead-academy.org/wp-content/uploads/0223/12/frame-37.webp" alt="Makeup Artists" />
                         <p class="mb-0 course-for-card-title fw-bold">Makeup Artists</p>
                         <p class="mb-0">Expand your service menu & earn more to enroll</p>
                     </article>
                     <article class="course-for-card d-flex align-items-center flex-column">
-                        <img src="https://i.ibb.co.com/Kxf7tKVF/Frame-37-1.webp" alt="Nail Technicians" />
+                        <img src="https://lead-academy.org/wp-content/uploads/0223/12/frame-37-1.webp" alt="Nail Technicians" />
                         <p class="mb-0 course-for-card-title fw-bold">Nail Technicians</p>
                         <p class="mb-0">Upskill with accredited acrylic training</p>
                     </article>
                     <article class="course-for-card d-flex align-items-center flex-column">
-                        <img src="https://i.ibb.co.com/nqmypwcB/Frame-37-2.webp" alt="Cosmetologists" />
+                        <img src="https://lead-academy.org/wp-content/uploads/0223/12/frame-37-2.webp" alt="Cosmetologists" />
                         <p class="mb-0 course-for-card-title fw-bold">Cosmetologists</p>
                         <p class="mb-0">Add nail extensions to your repertoire</p>
                     </article>
                     <article class="course-for-card d-flex align-items-center flex-column">
-                        <img src="https://i.ibb.co.com/603K5xZp/Frame-37-3.webp" alt="Beginner Beauticians" />
+                        <img src="https://lead-academy.org/wp-content/uploads/0223/12/frame-37-3.webp" alt="Beginner Beauticians" />
                         <p class="mb-0 course-for-card-title fw-bold">Career Changers</p>
                         <p class="mb-0">Break into the beauty industry confidently</p>
                     </article>
@@ -292,7 +292,7 @@
                         <h2 class="text-center fw-bold">Your Path to Becoming a Nail Professional</h2>
                     </div>
                     <div class="about-the-course-container-img col-lg-6">
-                        <img src="https://i.ibb.co.com/rK7t6DLr/Image.webp" alt="Nail Extension Training about" />
+                        <img src="https://lead-academy.org/wp-content/uploads/0223/12/image-1.webp" alt="Nail Extension Training about" />
                     </div>
                     <article class="col-lg-6">
                         <div class="article-about-heading d-none d-lg-block">
@@ -303,43 +303,43 @@
                             <li
                                 class="d-flex justify-content-start align-items-center gap-lg-3 gap-2 subtitle text-start"
                             >
-                                <img src="https://i.ibb.co.com/1YpjG3t0/Vector-4.webp" alt="" />
+                                <img src="https://lead-academy.org/wp-content/uploads/0223/12/vector-4.webp" alt="" />
                                 Certified by CPD UK & Accredited by IPHM
                             </li>
                             <li
                                 class="d-flex justify-content-start align-items-center gap-lg-3 gap-2 subtitle text-start"
                             >
-                                <img src="https://i.ibb.co.com/1YpjG3t0/Vector-4.webp" alt="" />
+                                <img src="https://lead-academy.org/wp-content/uploads/0223/12/vector-4.webp" alt="" />
                                 Become Eligible to Apply for Insurance
                             </li>
                             <li
                                 class="d-flex justify-content-start align-items-center gap-lg-3 gap-2 subtitle text-start"
                             >
-                                <img src="https://i.ibb.co.com/1YpjG3t0/Vector-4.webp" alt="" />
+                                <img src="https://lead-academy.org/wp-content/uploads/0223/12/vector-4.webp" alt="" />
                                 Pay in Interest Free Installments
                             </li>
                             <li
                                 class="d-flex justify-content-start align-items-center gap-lg-3 gap-2 subtitle text-start"
                             >
-                                <img src="https://i.ibb.co.com/1YpjG3t0/Vector-4.webp" alt="" />
+                                <img src="https://lead-academy.org/wp-content/uploads/0223/12/vector-4.webp" alt="" />
                                 Gain Skills in Just 1 Day
                             </li>
                             <li
                                 class="d-flex justify-content-start align-items-center gap-lg-3 gap-2 subtitle text-start"
                             >
-                                <img src="https://i.ibb.co.com/1YpjG3t0/Vector-4.webp" alt="" />
+                                <img src="https://lead-academy.org/wp-content/uploads/0223/12/vector-4.webp" alt="" />
                                 Face to Face Training by Industry Experts
                             </li>
                             <li
                                 class="d-flex justify-content-start align-items-center gap-lg-3 gap-2 subtitle text-start"
                             >
-                                <img src="https://i.ibb.co.com/1YpjG3t0/Vector-4.webp" alt="" />
+                                <img src="https://lead-academy.org/wp-content/uploads/0223/12/vector-4.webp" alt="" />
                                 All Training Equipment Supplied
                             </li>
                             <li
                                 class="d-flex justify-content-start align-items-center gap-lg-3 gap-2 subtitle text-start"
                             >
-                                <img src="https://i.ibb.co.com/1YpjG3t0/Vector-4.webp" alt="" />
+                                <img src="https://lead-academy.org/wp-content/uploads/0223/12/vector-4.webp" alt="" />
                                 Accredite PDF & Hardcopy Certificate Provided
                             </li>
                         </ul>
@@ -379,7 +379,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Rp5QdKmt/Vector-5.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-5.webp"
                                                         alt="check"
                                                     />Salon Hygiene Standards
                                                 </li>
@@ -387,7 +387,7 @@
                                                     class="d-flex justify-content-start align-items-center align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Rp5QdKmt/Vector-5.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-5.webp"
                                                         alt="check"
                                                     />Work Area Preparation
                                                 </li>
@@ -395,7 +395,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Rp5QdKmt/Vector-5.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-5.webp"
                                                         alt="check"
                                                     />Healthy & Safety Practice
                                                 </li>
@@ -411,7 +411,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Rp5QdKmt/Vector-5.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-5.webp"
                                                         alt="check"
                                                     />Confident Consultations
                                                 </li>
@@ -419,7 +419,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Rp5QdKmt/Vector-5.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-5.webp"
                                                         alt="check"
                                                     />Client Communication Skills
                                                 </li>
@@ -427,7 +427,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Rp5QdKmt/Vector-5.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-5.webp"
                                                         alt="check"
                                                     />Promote Products & Services
                                                 </li>
@@ -441,7 +441,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Rp5QdKmt/Vector-5.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-5.webp"
                                                         alt="check"
                                                     />Nail Structure Basics
                                                 </li>
@@ -449,7 +449,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Rp5QdKmt/Vector-5.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-5.webp"
                                                         alt="check"
                                                     />Skin Types & Layers
                                                 </li>
@@ -457,7 +457,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Rp5QdKmt/Vector-5.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-5.webp"
                                                         alt="check"
                                                     />Lymphatic System Roles
                                                 </li>
@@ -470,7 +470,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Rp5QdKmt/Vector-5.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-5.webp"
                                                         alt="check"
                                                     />Identify Contraindications
                                                 </li>
@@ -478,7 +478,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Rp5QdKmt/Vector-5.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-5.webp"
                                                         alt="check"
                                                     />Nail & Skin Care
                                                 </li>
@@ -486,7 +486,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Rp5QdKmt/Vector-5.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-5.webp"
                                                         alt="check"
                                                     />Diseases & Disorders
                                                 </li>
@@ -522,7 +522,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Mx7DmqKW/Vector-6.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-6.webp"
                                                         alt="check"
                                                     />Essential Nail Tools
                                                 </li>
@@ -530,7 +530,7 @@
                                                     class="d-flex justify-content-start align-items-center align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Mx7DmqKW/Vector-6.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-6.webp"
                                                         alt="check"
                                                     />Nail Preparation Steps
                                                 </li>
@@ -544,7 +544,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Mx7DmqKW/Vector-6.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-6.webp"
                                                         alt="check"
                                                     />Acrylic Application Techniques
                                                 </li>
@@ -552,7 +552,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Mx7DmqKW/Vector-6.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-6.webp"
                                                         alt="check"
                                                     />Brush Handling Skills
                                                 </li>
@@ -560,7 +560,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Mx7DmqKW/Vector-6.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-6.webp"
                                                         alt="check"
                                                     />Acrylic Overlay Precision
                                                 </li>
@@ -568,7 +568,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Mx7DmqKW/Vector-6.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-6.webp"
                                                         alt="check"
                                                     />Gel Paint Application
                                                 </li>
@@ -576,7 +576,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Mx7DmqKW/Vector-6.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-6.webp"
                                                         alt="check"
                                                     />Nail Removal Methods
                                                 </li>
@@ -590,7 +590,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Mx7DmqKW/Vector-6.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-6.webp"
                                                         alt="check"
                                                     />Tutor observation of skills
                                                 </li>
@@ -598,7 +598,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Mx7DmqKW/Vector-6.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-6.webp"
                                                         alt="check"
                                                     />Assess readiness for salon practice
                                                 </li>
@@ -606,7 +606,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Mx7DmqKW/Vector-6.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-6.webp"
                                                         alt="check"
                                                     />Receive personalised feedback to improve
                                                 </li>
@@ -614,7 +614,7 @@
                                                     class="d-flex justify-content-start align-items-center gap-3 session-des fs-6"
                                                 >
                                                     <img
-                                                        src="https://i.ibb.co.com/Mx7DmqKW/Vector-6.webp"
+                                                        src="https://lead-academy.org/wp-content/uploads/0223/12/vector-6.webp"
                                                         alt="check"
                                                     />Build confidence performing acrylic procedures
                                                 </li>
@@ -636,130 +636,204 @@
     </section>
 
     <!-- textimonials -->
-    <section id="testimonials">
+      <section id="testimonials">
         <div class="testimonial-container">
-            <div class="container">
-                <div class="sub-heading">
-                    <span class="top-title text-center d-block">TESTIMONIALS</span>
-                    <h2>What Our Student Says</h2>
-                    <p class="subtitle">Hear directly from learners who transformed their careers with our training.</p>
-                </div>
-                <div class="position-relative testimonial-card">
-                    <button class="nav-btn testimonial-arrow-left d-none d-md-block" onclick="prevTestimonial()">
-                        <img src="https://i.ibb.co.com/WNKrL1ss/Vector-7.webp" alt="testimonial-arrow-left" />
-                    </button>
-                    <button class="nav-btn testimonial-arrow-right d-none d-md-block" onclick="nextTestimonial()">
-                        <img src="https://i.ibb.co.com/4RNgMPp9/Vector-8.webp" alt="testimonial-arrow-right" />
-                    </button>
-
-                    <div class="row justify-content-center">
-                        <div class="col-md-6 order-1 order-md-2">
-                            <div class="d-none d-md-flex justify-content-between align-items-start w-75">
-                                <span id="badge-text" class="badge-top bg-success-morning text-morning">
-                                    <img
-                                        src="https://i.ibb.co.com/9H1gNPQN/Component-1-4.webp"
-                                        alt="badge-top"
-                                        class=""
-                                    />Passed Level exam
-                                </span>
-                                <img src="https://i.ibb.co.com/wr2MVKjT/Component-1-2.webp" class="fs-1 text-danger" />
-                            </div>
-
-                            <div>
-                                <div>
-                                    <p id="user-name" class="user-name fw-bold">Sara Mitchel</p>
-                                    <p id="user-role" class="user-role">Nail Technician,</p>
-                                    <p id="user-address" class="user-address address">London</p>
-                                </div>
-                            </div>
-
-                            <div class="d-flex align-items-center gap-1 mb-3">
-                                <div class="rating-star">
-                                    <img src="https://i.ibb.co.com/5gMSssxx/Group.webp" alt="" />
-                                </div>
-                                <div class="rating-star">
-                                    <img src="https://i.ibb.co.com/5gMSssxx/Group.webp" alt="" />
-                                </div>
-                                <div class="rating-star">
-                                    <img src="https://i.ibb.co.com/5gMSssxx/Group.webp" alt="" />
-                                </div>
-                                <div class="rating-star">
-                                    <img src="https://i.ibb.co.com/5gMSssxx/Group.webp" alt="" />
-                                </div>
-                                <div class="rating-star">
-                                    <img src="https://i.ibb.co.com/5gMSssxx/Group.webp" alt="" />
-                                </div>
-                            </div>
-                            <h3 class="fw-bold testimonial-title">This Course Completely Changed My Life</h3>
-                            <p id="testimonial-text" class="testimonial-content">
-                                I went from zero experience to running my own nail business within 3 months. The
-                                trainers are incredibly supportive and the hands-on approach made everything click!
-                            </p>
-
-                            <div class="d-flex d-none d-md-flex" id="thumb-container"></div>
-                        </div>
-
-                        <div class="col-md-5 text-center position-relative order-2 order-md-1">
-                            <div class="video-wrapper-responsive mx-auto">
-                                <div class="custom-frame-1"></div>
-                                <div class="custom-frame-2"></div>
-
-                                <div class="position-relative z-index-2">
-                                    <div
-                                        class="container-fluid d-flex justify-content-center align-items-center full-height"
-                                    >
-                                        <div class="box position-relative">
-                                            <div class="position-absolute z-n1 top-circle"></div>
-                                            <div class="position-absolute z-n1 bottom-circle"></div>
-                                            <div class="inner-box">
-                                                <div class="position-absolute top-squre"></div>
-                                                <div class="position-absolute triangle"></div>
-                                                <div class="position-absolute cross-top"></div>
-                                                <div class="position-absolute cross-bottom"></div>
-                                                <div class="position-absolute bottom-squre"></div>
-                                                <div class="position-absolute rounded-circle left-dot">
-                                                    <div class="left-dot-fill position-absolute"></div>
-                                                </div>
-                                                <div class="position-absolute rounded-circle right-dot">
-                                                    <div class="right-dot-fill position-absolute"></div>
-                                                </div>
-                                                <div class="w-100 h-100 p-2 overflow-hidden">
-                                                    <img
-                                                        id="main-img"
-                                                        src="https://i.ibb.co.com/6R1KZt9s/Overlay-Shadow.webp"
-                                                        class="main-video-thumbnail"
-                                                        alt="User Video"
-                                                    />
-                                                    <button class="play-btn">
-                                                        <img
-                                                            src="https://i.ibb.co.com/Fqfskg4X/Component-1-3.webp"
-                                                            alt="playbtn"
-                                                        />
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="dot-orange d-md-none"></div>
-                                <div class="dot-purple d-md-none"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="d-flex d-md-none justify-content-center gap-4 mt-5">
-                        <button class="mobile-nav-btn nav-btn border-0" onclick="prevTestimonial()">
-                            <img src="https://i.ibb.co.com/WNKrL1ss/Vector-7.webp" alt="testimonial-arrow-left" />
-                        </button>
-                        <button class="mobile-nav-btn nav-btn border-0" onclick="nextTestimonial()">
-                            <img src="https://i.ibb.co.com/4RNgMPp9/Vector-8.webp" alt="testimonial-arrow-right" />
-                        </button>
-                    </div>
-                </div>
+          <div class="container">
+            <div class="sub-heading">
+              <span class="top-title text-center d-block">TESTIMONIALS</span>
+              <h2>What Our Student Says</h2>
+              <p class="subtitle">
+                Hear directly from learners who transformed their careers with
+                our training.
+              </p>
             </div>
+            <div class="position-relative testimonial-card">
+              <button
+                class="nav-btn testimonial-arrow-left d-none d-md-block"
+                onclick="prevTestimonial()"
+              >
+                <img
+                  src="https://lead-academy.org/wp-content/uploads/0223/12/vector-7.webp"
+                  alt="testimonial-arrow-left"
+                />
+              </button>
+              <button
+                class="nav-btn testimonial-arrow-right d-none d-md-block"
+                onclick="nextTestimonial()"
+              >
+                <img
+                  src="https://lead-academy.org/wp-content/uploads/0223/12/vector-7.webp"
+                  alt="testimonial-arrow-right"
+                  style="transform: rotate(180deg)"
+                />
+              </button>
+
+              <div class="row justify-content-center">
+                <div class="col-md-6 order-1 order-md-2">
+                  <div
+                    class="d-none d-md-flex justify-content-between align-items-start w-75"
+                  >
+                    <span
+                      id="badge-text"
+                      class="badge-top bg-success-morning text-morning"
+                    >
+                      <img
+                        src="https://lead-academy.org/wp-content/uploads/0223/12/component-1-4.webp"
+                        alt="badge-top"
+                        class=""
+                      />Passed Level exam
+                    </span>
+                    <img
+                      src="https://lead-academy.org/wp-content/uploads/0223/12/component-1-2.webp"
+                      class="fs-1 text-danger"
+                    />
+                  </div>
+
+                  <div>
+                    <div>
+                      <p id="user-name" class="user-name fw-bold">
+                        Sara Mitchel
+                      </p>
+                      <p id="user-role" class="user-role">Nail Technician,</p>
+                      <p id="user-address" class="user-address address">
+                        London
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="d-flex align-items-center gap-1 mb-3">
+                    <div class="rating-star">
+                      <img
+                        src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="rating-star">
+                      <img
+                        src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="rating-star">
+                      <img
+                        src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="rating-star">
+                      <img
+                        src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="rating-star">
+                      <img
+                        src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <h3 class="fw-bold testimonial-title">
+                    This Course Completely Changed My Life
+                  </h3>
+                  <p id="testimonial-text" class="testimonial-content">
+                    I went from zero experience to running my own nail business
+                    within 3 months. The trainers are incredibly supportive and
+                    the hands-on approach made everything click!
+                  </p>
+
+                  <div
+                    class="d-flex d-none d-md-flex"
+                    id="thumb-container"
+                  ></div>
+                </div>
+
+                <div
+                  class="col-md-5 text-center position-relative order-2 order-md-1"
+                >
+                  <div class="video-wrapper-responsive mx-auto">
+                    <div class="custom-frame-1"></div>
+                    <div class="custom-frame-2"></div>
+
+                    <div class="position-relative z-index-2">
+                      <div
+                        class="container-fluid d-flex justify-content-center align-items-center full-height"
+                      >
+                        <div class="box position-relative">
+                          <div class="position-absolute z-n1 top-circle">
+                                <div class="position-absolute top-squre"></div>
+                                <div class="position-absolute triangle"></div>
+                                <div
+                              class="position-absolute rounded-circle right-dot"
+                            >
+                              <div
+                                class="right-dot-fill position-absolute"
+                              ></div>
+                            </div>
+                            <div class="position-absolute cross-top"></div>
+                          </div>
+
+                          <div class="inner-box">
+                            <div
+                              class="position-absolute z-n1 bottom-circle"
+                            ><div class="position-absolute cross-bottom"></div>
+                              <div class="position-absolute bottom-squre"></div>
+                              <div
+                                class="position-absolute rounded-circle left-dot"
+                              >
+                                <div
+                                  class="left-dot-fill position-absolute"
+                                ></div>
+                              </div></div>
+                            <div class="w-100 h-100 p-2 overflow-hidden">
+                              <img
+                                id="main-img"
+                                src="https://lead-academy.org/wp-content/uploads/0223/12/overlay-shadow.webp"
+                                class="main-video-thumbnail"
+                                alt="User Video"
+                              />
+                              <button class="play-btn">
+                                <img
+                                  src="https://lead-academy.org/wp-content/uploads/0223/12/vector-7.webp"
+                                  alt="playbtn"
+                                />
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="dot-orange d-md-none"></div>
+                    <div class="dot-purple d-md-none"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="d-flex d-md-none justify-content-center gap-4 mt-5">
+                <button
+                  class="mobile-nav-btn nav-btn border-0"
+                  onclick="prevTestimonial()"
+                >
+                  <img
+                    src="https://lead-academy.org/wp-content/uploads/0223/12/vector-7.webp"
+                    alt="testimonial-arrow-left"
+                  />
+                </button>
+                <button
+                  class="mobile-nav-btn nav-btn border-0"
+                  onclick="nextTestimonial()"
+                >
+                  <img
+                    src="https://lead-academy.org/wp-content/uploads/0223/12/vector-7.webp"
+                    alt="testimonial-arrow-right"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
     <?php
     $acrylic_product_id = isset($current_product_id) ? absint($current_product_id) : absint(get_the_ID());
