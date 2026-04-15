@@ -761,6 +761,18 @@
         </div>
     </section>
 
+    <?php
+    $acrylic_product_id = isset($current_product_id) ? absint($current_product_id) : absint(get_the_ID());
+    $add_on_product_id = 394220;
+    $acrylic_booking_data = function_exists('la_get_face_to_face_course_data_from_json') ? la_get_face_to_face_course_data_from_json($acrylic_product_id) : false;
+    $add_on_booking_data = function_exists('la_get_face_to_face_course_data_from_json') ? la_get_face_to_face_course_data_from_json($add_on_product_id) : false;
+    $acrylic_booking_payload = [
+        'baseProductId' => $acrylic_product_id,
+        'addOnProductId' => $add_on_product_id,
+        'baseCourse' => $acrylic_booking_data ? $acrylic_booking_data : ['items' => []],
+        'addOnCourse' => $add_on_booking_data ? $add_on_booking_data : ['items' => []],
+    ];
+    ?>
     <!-- book traning -->
     <section id="book-traning">
         <div class="book-traning-container">
@@ -772,242 +784,10 @@
                         <p class="subtitle">Choose a date and location that works for you. Spots fill up fast!</p>
                     </div>
 
-                    <div class="book-traning-cards">
-                        <div class="book-traning-card position-relative">
-                            <span class="discount-top d-none d-md-block">59% OFF</span>
-                            <div>
-                                <div class="booking-info">
-                                    <div>
-                                        <div class="traning-address">
-                                            <div class="date-box d-none d-md-block">
-                                                <span class="date">14</span>
-                                                <span class="month">March</span>
-                                            </div>
-                                            <div class="location d-flex flex-column">
-                                                <p class="location-text">London</p>
-                                                <div
-                                                    class="location-icon d-flex justify-content-start align-items-center gap-2"
-                                                >
-                                                    <img
-                                                        src="https://i.ibb.co.com/kV9HgLYN/Group-47.webp"
-                                                        alt="location icon"
-                                                        class="d-none d-md-block"
-                                                    />
-                                                    <p class="mb-0">Bank Studio, 23 Park Royal Road, London NW10 7JH</p>
-                                                </div>
-                                                <div
-                                                    class="date-mobile d-flex justify-content-start align-items-center gap-2 d-block d-md-none"
-                                                >
-                                                    <span class="time-icon d-block d-md-none">
-                                                        <img
-                                                            src="https://i.ibb.co.com/CsWLJfTT/Group-82.webp"
-                                                            alt="date-icon"
-                                                        />
-                                                    </span>
-                                                    <p class="mb-0">14 March, 2026</p>
-                                                </div>
-                                                <div class="time d-flex justify-content-start align-items-center gap-2">
-                                                    <span class="time-icon">
-                                                        <img
-                                                            src="https://i.ibb.co.com/x87KPMvx/Group-48.webp"
-                                                            alt="time-icon"
-                                                        />
-                                                    </span>
-                                                    <p class="mb-0">10:00am - 5:00pm</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="alert-for-seats">
-                                            <span
-                                                ><span class="d-md-none d-inline-block">🔥</span>Hurry! Only 2 Seats
-                                                Left</span
-                                            >
-                                        </div>
-                                    </div>
-                                    <div class="book-price">
-                                        <div class="pricing-tag">
-                                            <span class="current-price">£92</span>
-                                            <span class="original-price">£250</span>
-                                        </div>
-                                        <button class="book-now-btn">Book Now</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- bottom-offer -->
-                            <div class="special-offer position-relative">
-                                <span class="discount-top">🔥 Special Offer</span>
-                                <div
-                                    class="d-flex justify-content-between flex-column flex-md-row align-items-md-end align-items-start gap-3"
-                                >
-                                    <div class="special-offer-text d-flex align-items-start">
-                                        <img
-                                            src="https://i.ibb.co.com/Tx5H2cj9/Property-1-Off.webp"
-                                            alt="offer-add"
-                                            class="offer-add mt-1"
-                                        />
-                                        <div>
-                                            <p class="p-text-black">Add Complete Nail Technical 3 Days Course</p>
-                                            <p class="text-morning mb-0">Offers are applicable only if you add now!</p>
-                                        </div>
-                                    </div>
-
-                                    <div
-                                        class="special-offer-course d-flex align-items-end justify-content-between gap-2"
-                                    >
-                                        <span class="only-for">only for</span>
-                                        <span class="current-price">£289</span>
-                                        <span class="original-price">£350</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="book-traning-card position-relative">
-                            <span class="discount-top d-none d-md-block">59% OFF</span>
-                            <div>
-                                <div class="booking-info">
-                                    <div>
-                                        <div class="traning-address">
-                                            <div class="date-box d-none d-md-block">
-                                                <span class="date">16</span>
-                                                <span class="month">March</span>
-                                            </div>
-                                            <div class="location d-flex flex-column">
-                                                <p class="location-text">London</p>
-                                                <div
-                                                    class="location-icon d-flex justify-content-start align-items-center gap-2"
-                                                >
-                                                    <img
-                                                        src="https://i.ibb.co.com/kV9HgLYN/Group-47.webp"
-                                                        alt="location icon"
-                                                        class="d-none d-md-block"
-                                                    />
-                                                    <p class="mb-0">Bank Studio, 23 Park Royal Road, London NW10 7JH</p>
-                                                </div>
-                                                <div
-                                                    class="date-mobile d-flex justify-content-start align-items-center gap-2 d-block d-md-none"
-                                                >
-                                                    <span class="time-icon d-block d-md-none">
-                                                        <img
-                                                            src="https://i.ibb.co.com/CsWLJfTT/Group-82.webp"
-                                                            alt="date-icon"
-                                                        />
-                                                    </span>
-                                                    <p class="mb-0">14 March, 2026</p>
-                                                </div>
-                                                <div class="time d-flex justify-content-start align-items-center gap-2">
-                                                    <span class="time-icon">
-                                                        <img
-                                                            src="https://i.ibb.co.com/x87KPMvx/Group-48.webp"
-                                                            alt="time-icon"
-                                                        />
-                                                    </span>
-                                                    <p class="mb-0">10:00am - 5:00pm</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="alert-for-no-seats">
-                                            <span>Sorry! No Seats Left</span>
-                                        </div>
-                                    </div>
-                                    <div class="book-price">
-                                        <div class="pricing-tag">
-                                            <span class="current-price">£92</span>
-                                            <span class="original-price">£250</span>
-                                        </div>
-                                        <button class="already-booked-btn">Fully Booked</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--no bottom-offer -->
-                        </div>
-                        <div class="book-traning-card position-relative">
-                            <span class="discount-top d-none d-md-block">59% OFF</span>
-                            <div>
-                                <div class="booking-info">
-                                    <div>
-                                        <div class="traning-address">
-                                            <div class="date-box d-none d-md-block">
-                                                <span class="date">18</span>
-                                                <span class="month">March</span>
-                                            </div>
-                                            <div class="location d-flex flex-column">
-                                                <p class="location-text">Manchester</p>
-                                                <div
-                                                    class="location-icon d-flex justify-content-start align-items-center gap-2"
-                                                >
-                                                    <img
-                                                        src="https://i.ibb.co.com/kV9HgLYN/Group-47.webp"
-                                                        alt="location icon"
-                                                        class="d-none d-md-block"
-                                                    />
-                                                    <p class="mb-0">Beauty Hub, 45 Deansgate, Manchester M3 2BA</p>
-                                                </div>
-                                                <div
-                                                    class="date-mobile d-flex justify-content-start align-items-center gap-2 d-block d-md-none"
-                                                >
-                                                    <span class="time-icon d-block d-md-none">
-                                                        <img
-                                                            src="https://i.ibb.co.com/CsWLJfTT/Group-82.webp"
-                                                            alt="date-icon"
-                                                        />
-                                                    </span>
-                                                    <p class="mb-0">14 March, 2026</p>
-                                                </div>
-                                                <div class="time d-flex justify-content-start align-items-center gap-2">
-                                                    <span class="time-icon">
-                                                        <img
-                                                            src="https://i.ibb.co.com/x87KPMvx/Group-48.webp"
-                                                            alt="time-icon"
-                                                        />
-                                                    </span>
-                                                    <p class="mb-0">10:00am - 5:00pm</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="alert-for-seats">
-                                            <span>Hurry! Only 2 Seats left</span>
-                                        </div>
-                                    </div>
-                                    <div class="book-price">
-                                        <div class="pricing-tag">
-                                            <span class="current-price">£92</span>
-                                            <span class="original-price">£250</span>
-                                        </div>
-                                        <button class="book-now-btn">Book Now</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- bottom-offer -->
-                            <div class="special-offer position-relative">
-                                <span class="discount-top">🔥 Special Offer</span>
-                                <div
-                                    class="d-flex justify-content-between flex-column flex-md-row align-items-md-end align-items-start gap-3"
-                                >
-                                    <div class="special-offer-text d-flex align-items-start">
-                                        <img
-                                            src="https://i.ibb.co.com/Tx5H2cj9/Property-1-Off.webp"
-                                            alt="offer-add"
-                                            class="offer-add"
-                                        />
-                                        <div>
-                                            <p class="p-text-black">Add Complete Nail Technical 3 Days Course</p>
-                                            <p class="text-morning mb-0">Offers are applicable only if you add now!</p>
-                                        </div>
-                                    </div>
-
-                                    <div
-                                        class="special-offer-course d-flex align-items-end justify-content-between gap-2"
-                                    >
-                                        <span class="only-for">only for</span>
-                                        <span class="current-price">£289</span>
-                                        <span class="original-price">£350</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <script id="acrylic-booking-data" type="application/json"><?php echo wp_json_encode($acrylic_booking_payload); ?></script>
+                    <div class="book-traning-cards"></div>
                     <div class="d-flex justify-content-center align-items-center">
-                        <button class="see-more-btn">See More</button>
+                        <button class="see-more-btn" type="button">See More</button>
                     </div>
                 </div>
             </div>
