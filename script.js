@@ -5,31 +5,31 @@ const testimonials = [
         name: "Sara Mitchel",
         role: "Nail Technician,",
         address:"London",
-        text: "I went from zero experience to running my own nail business within 3 months. The trainers are incredibly supportive and the hands-on approach made everything click!",
-        mainImg: "https://i.ibb.co.com/6R1KZt9s/Overlay-Shadow.png",
-        thumbImg: "https://i.ibb.co.com/4g09mkGL/Ellipse-7.png",
-        badge: "Now Running Own Salon",
-        videoUrl: "https://www.youtube.com/watch?v=ySgBOaPcLlw"
+        text: "This Maths course really gave me the confidence to pass my level 2 exam. The lessons were easy to follow and explained really well. I loved  the mock tests and they helped me put what i learned into practice.",
+        mainImg: "https://i.ibb.co.com/XkY4b2M3/Overlay-Shadow.webp", 
+        thumbImg: "https://i.ibb.co.com/XkY4b2M3/Overlay-Shadow.webp", 
+        badge: "Passed Level 2 exam",
+        videoUrl: "https://www.youtube.com/watch?v=ySgBOaPcLlw" 
     },
     {
         name: "John Doe",
-        role: "Nail Technician,",
+        role: "Software Engineer,",
         address:"London",
-        text: "The Acrylic Nail Extension course by Lead Academy is clear and well-structured. The lessons are easy to follow, with practical examples that build confidence and improve your skills effectively.",
+        text: "The Functional Skills Math Level 2 course by Lead Academy is clear and well-structured. The lessons are easy to follow, with practical examples that build confidence and improve problem-solving skills effectively.",
         mainImg: "https://i.ibb.co.com/G4PTcq1g/unsplash-p-At-A8xe-i-VM.png",
         thumbImg: "https://i.ibb.co.com/G4PTcq1g/unsplash-p-At-A8xe-i-VM.png",
         badge: "Career Switch Success",
-        videoUrl: "https://www.youtube.com/watch?v=9e9vexPeTtY"
+        videoUrl: "https://www.youtube.com/watch?v=9e9vexPeTtY" // Video 2
     },
     {
         name: "Mark Stevens",
-        role: "Beauty Therapist,",
+        role: "Teacher,",
         address:"London",
-        text: "Lead Academy’s Acrylic Nail Extension course is very helpful for beginners. The content is simple, engaging, and well explained. It strengthened my basics and made difficult techniques easier to master.",
+        text: "Lead Academy’s Functional Skills Math Level 2 is very helpful for exam prep. The content is simple, engaging, and well explained. It strengthened my basics and made difficult topics easier to understand.",
         mainImg: "https://i.ibb.co.com/YFrdRMSD/unsplash8-Vt2haq8-NSQ280x373.png",
         thumbImg: "https://i.ibb.co.com/YFrdRMSD/unsplash8-Vt2haq8-NSQ280x373.png",
         badge: "Professional Certificate",
-        videoUrl: "https://www.youtube.com/watch?v=F8yuihI1DR0"
+        videoUrl: "https://www.youtube.com/watch?v=F8yuihI1DR0" // Video 3
     }
 ];
 

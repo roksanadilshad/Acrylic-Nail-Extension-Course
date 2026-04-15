@@ -424,13 +424,14 @@ width: 84%;
 margin: 0 auto;
 }
 .top-badge {
-  padding: 4px;
+  padding: 4px 16px;
   border-radius: 0px 12px 0px 12px;
   right: 0.21px;
   top: -10px;
   position: absolute;
   font-size: 16px;
   font-weight: 600;
+  color: #FFFFFF;
 }
 .text-evening{
   color: var(--primary-color);
@@ -451,7 +452,7 @@ margin: 0 auto;
 .style-card-evening,
 .style-card-boards {
   border-radius: 12px; 
-  overflow: hidden; 
+  overflow: visible; 
   margin-bottom: 30px;
   border: 1px solid;
   position: relative; 
@@ -540,15 +541,14 @@ background: rgba(255, 255, 255, 1);
 
 }
 .main-video-thumbnail{
-width: 280px;
-height: 340.3299865722656px;
+width: 220px;
+height: 300.3299865722656px;
 border-radius: 16px;
 opacity: 1;
 z-index: -10;
-padding: 20px;
-border-radius: 30px;
-
+overflow: hidden;
 }
+
 .box {
   width: 356px;
   height: 374px;
@@ -579,8 +579,8 @@ border-bottom-right-radius: 60px;
 border-right: 5px solid #16844280;
 border-bottom: 5px solid #16844280;
 border-width: 0px, 5px, 5px, 0px;
-bottom: 0px;
-right: 34px;
+bottom: 30px;
+right: 50px;
 
 
 }
@@ -601,8 +601,8 @@ z-index: 10;
   width: 140px;
 height: 6px;
 border-radius: 9999px;
-bottom: 10px;
-right: 90px;
+bottom: 40px;
+right: 110px;
 opacity: 1;
 border-width: stroke weight/1;
 background: linear-gradient(90deg, rgba(22, 132, 66, 0.2) 0%, rgba(22, 132, 66, 0.6) 100%);
@@ -614,8 +614,8 @@ z-index: 10;
   width: 32px;
   height: 32px;
   border-radius: 9999px;
-  top: 340px;
-  left: 52px;
+  top: 315px;
+  left: 43px;
   border: 3px solid rgba(22, 132, 66, 0.6)
 }
 .left-dot-fill {
@@ -668,8 +668,8 @@ z-index: 10;
   background: rgba(22, 132, 66, 0.5);
   width: 12px;
   height: 18px;
-  right: 53px;
-  bottom: 10px;
+  right: 64px;
+  bottom: 40px;
   transform: rotate(100deg);
 }
 .box img{
@@ -681,8 +681,8 @@ z-index: 10;
 }
 .play-btn img {
   position: absolute;
-  top: 45%;
-  left: 45%;
+  top: 42%;
+  left: 47%;
   padding: 15px 17px;
   transform: translate(-50%, -50%);
   background: rgba(22, 132, 66, 1);

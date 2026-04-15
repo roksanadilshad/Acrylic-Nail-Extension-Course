@@ -422,13 +422,14 @@ width: 84%;
 margin: 0 auto;
 }
 .top-badge {
-  padding: 4px;
+  padding: 4px 16px;
   border-radius: 0px 12px 0px 12px;
   right: 0.21px;
   top: -10px;
   position: absolute;
   font-size: 16px;
   font-weight: 600;
+  color: #FFFFFF;
 }
 .text-evening{
   color: var(--primary-color);
@@ -449,7 +450,7 @@ margin: 0 auto;
 .style-card-evening,
 .style-card-boards {
   border-radius: 12px; 
-  overflow: hidden; 
+  overflow: visible; 
   margin-bottom: 30px;
   border: 1px solid;
   position: relative; 
@@ -542,15 +543,25 @@ border: 1px solid rgba(226, 226, 227, 1);
 background: rgba(255, 255, 255, 1);
 
 }
-.main-video-thumbnail{
-width: 280px;
-height: 340.3299865722656px;
-border-radius: 16px;
-opacity: 1;
-z-index: -10;
-padding: 20px;
-border-radius: 30px;
-
+/* Use a stronger selector to beat WooCommerce and Astra */
+body .main-video-thumbnail {
+  display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 220px !important;
+    height: 300px !important; /* Rounding to 300px is safer */
+    object-fit: cover;        /* Ensures the image doesn't stretch weirdly */
+    padding: 0 !important;    /* Removes that 20px padding seen in your log */
+    border-radius: 16px !important;
+    display: block;
+    overflow: hidden;
+    object-position: center;
+}
+.main-video-thumbnail img {
+    height: 100% !important;
+    width: 100% !important;
+    max-width: none !important; /* Beats the max-width: 100% rule */
+    object-fit: cover;
 }
 .box {
   width: 356px;
@@ -573,7 +584,7 @@ border-top: 5px solid #E9206366;
 border-left: 5px solid #E9206366;
 border-width: 5px, 0px, 0px, 5px;
 top: -20px;
-left: 34px;
+left: 45px;
 }
 .bottom-circle {
  width: 164px;
@@ -582,8 +593,8 @@ border-bottom-right-radius: 60px;
 border-right: 5px solid #16844280;
 border-bottom: 5px solid #16844280;
 border-width: 0px, 5px, 5px, 0px;
-bottom: 0px;
-right: 34px;
+bottom: 35px;
+right: 50px;
 
 
 }
@@ -604,8 +615,8 @@ z-index: 10;
   width: 140px;
 height: 6px;
 border-radius: 9999px;
-bottom: 10px;
-right: 90px;
+bottom: 45px;
+right: 110px;
 opacity: 1;
 border-width: stroke weight/1;
 background: linear-gradient(90deg, rgba(22, 132, 66, 0.2) 0%, rgba(22, 132, 66, 0.6) 100%);
@@ -617,8 +628,8 @@ z-index: 10;
   width: 32px;
   height: 32px;
   border-radius: 9999px;
-  top: 340px;
-  left: 52px;
+  top: 315px;
+  left: 43px;
   border: 3px solid rgba(22, 132, 66, 0.6)
 }
 .left-dot-fill {
@@ -634,7 +645,7 @@ z-index: 10;
  width: 36px;
   height: 36px;
   border-radius: 9999px;
-  top: -40px;
+  top: -50px;
   right: 20px;
   border: 3px solid #E9206366;
   margin: 20px;
@@ -653,7 +664,7 @@ z-index: 10;
   background: #E9206380;
   width: 12px;
   height: 10px;
-  left: 40px;
+  left: 50px;
   top: 100px;
   transform: rotate(0deg);
 }
@@ -662,7 +673,7 @@ z-index: 10;
   background: rgba(233, 32, 99, 0.3);
   width: 12px;
   height: 18px;
-  left: 53px;
+  left: 60px;
   top: -10px;
   transform: rotate(90deg);
 }
@@ -671,8 +682,8 @@ z-index: 10;
   background: rgba(22, 132, 66, 0.5);
   width: 12px;
   height: 18px;
-  right: 53px;
-  bottom: 10px;
+  right: 57px;
+  bottom: 52px;
   transform: rotate(100deg);
 }
 .box img{
@@ -684,10 +695,10 @@ z-index: 10;
 }
 .play-btn img {
   position: absolute;
-  top: 45%;
-  left: 50%;
+ top: 34%;
+  left: 40%;
   padding: 15px 17px;
-  transform: translate(-50%, -50%);
+  transform: scale(102%);
   background: rgba(22, 132, 66, 1);
   color: white;
   border: none;
@@ -1501,6 +1512,37 @@ background: #E5E7EB;
 }
 .nav-btn:hover {
   transform: scale(1.1); 
+}
+.top-circle {
+left: 4px;
+}
+.bottom-circle {
+right: 6px;
+}
+
+.top-squre{
+left: 65px;
+}
+.bottom-squre{
+right: 63px;
+}
+
+.left-dot {
+  left: 1px;
+  top: 310px;
+}
+.right-dot{
+  top: -50px;
+  right: -20px;
+}
+.triangle{
+  left: 10px;
+}
+.cross-top{
+  left: 16px;
+}
+.cross-bottom{
+  right: 14px;
 }
 /* book traning */
 .book-traning-container{
