@@ -636,126 +636,75 @@
     </section>
 
     <!-- textimonials -->
-      <section id="testimonials">
+    <section id="testimonials">
         <div class="testimonial-container">
-          <div class="container">
-            <div class="sub-heading">
-              <span class="top-title text-center d-block">TESTIMONIALS</span>
-              <h2>What Our Student Says</h2>
-              <p class="subtitle">
-                Hear directly from learners who transformed their careers with
-                our training.
-              </p>
-            </div>
-            <div class="position-relative testimonial-card">
-              <button
-                class="nav-btn testimonial-arrow-left d-none d-md-block"
-                onclick="prevTestimonial()"
-              >
-                <img
-                  src="https://lead-academy.org/wp-content/uploads/0223/12/vector-7.webp"
-                  alt="testimonial-arrow-left"
-                />
-              </button>
-              <button
-                class="nav-btn testimonial-arrow-right d-none d-md-block"
-                onclick="nextTestimonial()"
-              >
-                <img
-                  src="https://lead-academy.org/wp-content/uploads/0223/12/vector-7.webp"
-                  alt="testimonial-arrow-right"
-                  style="transform: rotate(180deg)"
-                />
-              </button>
-
-              <div class="row justify-content-center">
-                <div class="col-md-6 order-1 order-md-2">
-                  <div
-                    class="d-none d-md-flex justify-content-between align-items-start w-75"
-                  >
-                    <span
-                      id="badge-text"
-                      class="badge-top bg-success-morning text-morning"
-                    >
-                      <img
-                        src="https://lead-academy.org/wp-content/uploads/0223/12/component-1-4.webp"
-                        alt="badge-top"
-                        class=""
-                      />Passed Level exam
-                    </span>
-                    <img
-                      src="https://lead-academy.org/wp-content/uploads/0223/12/component-1-2.webp"
-                      class="fs-1 text-danger"
-                    />
-                  </div>
-
-                  <div>
-                    <div>
-                      <p id="user-name" class="user-name fw-bold">
-                        Sara Mitchel
-                      </p>
-                      <p id="user-role" class="user-role">Nail Technician,</p>
-                      <p id="user-address" class="user-address address">
-                        London
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="d-flex align-items-center gap-1 mb-3">
-                    <div class="rating-star">
-                      <img
-                        src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp"
-                        alt=""
-                      />
-                    </div>
-                    <div class="rating-star">
-                      <img
-                        src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp"
-                        alt=""
-                      />
-                    </div>
-                    <div class="rating-star">
-                      <img
-                        src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp"
-                        alt=""
-                      />
-                    </div>
-                    <div class="rating-star">
-                      <img
-                        src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp"
-                        alt=""
-                      />
-                    </div>
-                    <div class="rating-star">
-                      <img
-                        src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <h3 class="fw-bold testimonial-title">
-                    This Course Completely Changed My Life
-                  </h3>
-                  <p id="testimonial-text" class="testimonial-content">
-                    I went from zero experience to running my own nail business
-                    within 3 months. The trainers are incredibly supportive and
-                    the hands-on approach made everything click!
-                  </p>
-
-                  <div
-                    class="d-flex d-none d-md-flex"
-                    id="thumb-container"
-                  ></div>
+            <div class="container">
+                <div class="sub-heading">
+                    <span class="top-title text-center d-block">TESTIMONIALS</span>
+                    <h2>What Our Student Says</h2>
+                    <p class="subtitle">Hear directly from learners who transformed their careers with our training.</p>
                 </div>
+                <div class="position-relative testimonial-card">
+                    <button class="nav-btn testimonial-arrow-left d-none d-md-block" onclick="prevTestimonial()">
+                        <img src="https://lead-academy.org/wp-content/uploads/0223/12/vector-7.webp" alt="testimonial-arrow-left" />
+                    </button>
+                    <button class="nav-btn testimonial-arrow-right d-none d-md-block" onclick="nextTestimonial()">
+                        <img src="https://lead-academy.org/wp-content/uploads/0223/12/vector-7.webp" alt="testimonial-arrow-right" style="transform: rotate(180deg)" />
+                    </button>
 
-                <div
-                  class="col-md-5 text-center position-relative order-2 order-md-1"
-                >
-                  <div class="video-wrapper-responsive mx-auto">
-                    <div class="custom-frame-1"></div>
-                    <div class="custom-frame-2"></div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 order-1 order-md-2">
+                            <div class="d-none d-md-flex justify-content-between align-items-start w-75">
+                                <span id="badge-text" class="badge-top bg-success-morning text-morning">
+                                    <img
+                                        src="https://lead-academy.org/wp-content/uploads/0223/12/component-1-4.webp"
+                                        alt="badge-top"
+                                        class=""
+                                    />Passed Level exam
+                                </span>
+                                <img src="https://lead-academy.org/wp-content/uploads/0223/12/component-1-2.webp" class="" />
+                            </div>
 
-                    <div class="position-relative z-index-2">
+                            <div>
+                                <div>
+                                    <p id="user-name" class="user-name fw-bold">Sara Mitchel</p>
+                                    <p id="user-role" class="user-role">Nail Technician,</p>
+                                    <p id="user-address" class="user-address address">London</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center gap-1 mb-3">
+                                <div class="rating-star">
+                                    <img src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp" alt="" />
+                                </div>
+                                <div class="rating-star">
+                                    <img src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp" alt="" />
+                                </div>
+                                <div class="rating-star">
+                                    <img src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp" alt="" />
+                                </div>
+                                <div class="rating-star">
+                                    <img src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp" alt="" />
+                                </div>
+                                <div class="rating-star">
+                                    <img src="https://lead-academy.org/wp-content/uploads/0223/12/group.webp" alt="" />
+                                </div>
+                            </div>
+                            <h3 class="fw-bold testimonial-title">This Course Completely Changed My Life</h3>
+                            <p id="testimonial-text" class="testimonial-content">
+                                I went from zero experience to running my own nail business within 3 months. The
+                                trainers are incredibly supportive and the hands-on approach made everything click!
+                            </p>
+
+                            <div class="d-flex d-none d-md-flex" id="thumb-container"></div>
+                        </div>
+
+                        <div class="col-md-5 text-center position-relative order-2 order-md-1">
+                            <div class="video-wrapper-responsive mx-auto">
+                                <div class="custom-frame-1"></div>
+                                <div class="custom-frame-2"></div>
+
+                                <div class="position-relative z-index-2">
                       <div
                         class="container-fluid d-flex justify-content-center align-items-center full-height"
                       >
@@ -794,7 +743,7 @@
                               />
                               <button class="play-btn">
                                 <img
-                                  src="https://lead-academy.org/wp-content/uploads/0223/12/vector-7.webp"
+                                  src="https://lead-academy.org/wp-content/uploads/0223/12/vector-7-1.webp"
                                   alt="playbtn"
                                 />
                               </button>
@@ -804,36 +753,24 @@
                       </div>
                     </div>
 
-                    <div class="dot-orange d-md-none"></div>
-                    <div class="dot-purple d-md-none"></div>
-                  </div>
-                </div>
-              </div>
+                                <div class="dot-orange d-md-none"></div>
+                                <div class="dot-purple d-md-none"></div>
+                            </div>
+                        </div>
+                    </div>
 
-              <div class="d-flex d-md-none justify-content-center gap-4 mt-5">
-                <button
-                  class="mobile-nav-btn nav-btn border-0"
-                  onclick="prevTestimonial()"
-                >
-                  <img
-                    src="https://lead-academy.org/wp-content/uploads/0223/12/vector-7.webp"
-                    alt="testimonial-arrow-left"
-                  />
-                </button>
-                <button
-                  class="mobile-nav-btn nav-btn border-0"
-                  onclick="nextTestimonial()"
-                >
-                  <img
-                    src="https://lead-academy.org/wp-content/uploads/0223/12/vector-7.webp"
-                    alt="testimonial-arrow-right"
-                  />
-                </button>
-              </div>
+                    <div class="d-flex d-md-none justify-content-center gap-4 mt-5">
+                        <button class="mobile-nav-btn nav-btn border-0" onclick="prevTestimonial()">
+                            <img src="https://lead-academy.org/wp-content/uploads/0223/12/vector-7.webp" alt="testimonial-arrow-left" />
+                        </button>
+                        <button class="mobile-nav-btn nav-btn border-0" onclick="nextTestimonial()">
+                            <img src="https://lead-academy.org/wp-content/uploads/0223/12/vector-7.webp" alt="testimonial-arrow-right" />
+                        </button>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
     <?php
     $acrylic_product_id = isset($current_product_id) ? absint($current_product_id) : absint(get_the_ID());
